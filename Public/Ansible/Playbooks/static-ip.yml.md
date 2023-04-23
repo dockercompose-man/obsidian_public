@@ -17,7 +17,7 @@
         state: restarted
 
 - name: Set static IP address using nmcli for a specific NIC (CRASHOVERRIDE)
-  hosts: crashoverride
+  hosts: node1
   become: yes
 
   tasks:
@@ -33,7 +33,7 @@
         state: restarted
 
 - name: Set static IP address for a specific NIC Debian 11 (CEREALKILLER)
-  hosts: cerealkiller
+  hosts: node3
   become: yes
 
   vars:
@@ -72,7 +72,7 @@
         state: restarted
 
 - name: Set static IP address for a specific NIC Debian 11 (ACIDBURN)
-  hosts: acidburn
+  hosts: node2
   become: yes
 
   vars:

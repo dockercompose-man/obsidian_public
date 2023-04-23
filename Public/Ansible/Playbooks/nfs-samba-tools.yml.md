@@ -13,7 +13,7 @@
         - nfs-utils
       state: present
 
-- hosts: crashoverride
+- hosts: node1
   become: yes
   tasks:
   - name: Install Samba and NFS Tools / multiple packages using dnf (CRASHOVERRIDE/ROCKY9)
@@ -26,7 +26,7 @@
         - nfs-utils
       state: present
 
-- hosts: acidburn
+- hosts: node2
   become: yes
   tasks:
   - name: Install Samba and NFS Tools / multiple packages using apt (ACIDBURN/DEBIAN11)
@@ -40,7 +40,7 @@
         - nfs-kernel-server
       state: present
 
-- hosts: cerealkiller
+- hosts: node3
   become: yes
   tasks:
   - name: Install Samba and NFS Tools / multiple packages using apt (CEREALKILLER/DEBIAN11)

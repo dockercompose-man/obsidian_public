@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Ansible/Playbooks/static-ip.yml.md",
+                "file": "Public/Ansible/Playbooks/default-inventory.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "20adb19a3bba522d",
+            "id": "b78b603c35d0d718",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
+                "file": "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
+                "file": "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
+                "file": "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md"
+                "file": "Public/Ansible/Playbooks/nfs-samba-tools.yml.md"
               }
             }
           },
@@ -179,11 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20adb19a3bba522d",
+  "active": "b78b603c35d0d718",
   "lastOpenFiles": [
     "Public/Ansible/Playbooks/static-ip.yml.md",
-    "Public/Ansible/Playbooks/add-public-keys.yml.md",
     "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
+    "Public/Ansible/Playbooks/default-inventory.md",
+    "Public/Ansible/Playbooks/ansible.cfg.md",
+    "Public/Ansible/Playbooks/add-public-keys.yml.md",
     "Public/Public Test 2.md",
     "Public/Ansible/Playbooks",
     "Public/Ansible",
