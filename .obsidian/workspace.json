@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "56a5dcb94677a2df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dockercompose_man-public/Public Test 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dockercompose_man-public/Public Test.md",
+                "file": "dockercompose_man-public/Public Test 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dockercompose_man-public/Public Test.md",
+                "file": "dockercompose_man-public/Public Test 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dockercompose_man-public/Public Test.md"
+                "file": "dockercompose_man-public/Public Test 2.md"
               }
             }
           },
@@ -154,9 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b985c215425d45d4",
+  "active": "56a5dcb94677a2df",
   "lastOpenFiles": [
     "dockercompose_man-public/Public Test.md",
+    "dockercompose_man-public/Public Test 2.md",
     "dockercompose_man-public",
     "repository"
   ]
