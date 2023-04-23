@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c3aef5406115bb63",
+        "id": "6b2a9fa889be87dd",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8828a95b1d3d3c",
+            "id": "bd48511eddd2cddd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Public/Ansible/Playbooks/add-public-keys.yml.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee8828a95b1d3d3c",
+  "active": "bd48511eddd2cddd",
   "lastOpenFiles": [
+    "Public/Ansible/Playbooks/static-ip.yml.md",
+    "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
     "Public/Ansible/Playbooks/ansible.cfg.md",
     "Public/Ansible/Playbooks/default-inventory.md",
-    "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
-    "Public/Ansible/Playbooks/static-ip.yml.md",
     "Public/Ansible/Playbooks/add-public-keys.yml.md",
     "Public/Public Test 2.md",
     "Public/Ansible/Playbooks",
