@@ -11,7 +11,7 @@
 [master:vars]
 ansible_ssh_user=
 #add once ssh public key has been sent and host checking disabled
-ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
+ansible_ssh_private_key_file=/home/masteruser/.ssh/ansible_id_rsa
 
 #remove once ssh public key has been sent
 #ansible_ssh_pass=
@@ -20,7 +20,7 @@ ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
 [node1:vars]
 ansible_ssh_user=
 #add once ssh public key has been sent and host checking disabled
-ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
+ansible_ssh_private_key_file=/home/masteruser/.ssh/ansible_id_rsa
 
 #remove once ssh public key has been sent
 #ansible_ssh_pass=
@@ -29,7 +29,7 @@ ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
 [node2:vars]
 ansible_ssh_user=
 #add once ssh public key has been sent and host checking disabled
-ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
+ansible_ssh_private_key_file=/home/masteruser/.ssh/ansible_id_rsa
 
 #remove once ssh public key has been sent
 #ansible_ssh_pass=
@@ -38,7 +38,7 @@ ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
 [node3:vars]
 ansible_ssh_user=
 #add once ssh public key has been sent and host checking disabled
-ansible_ssh_private_key_file=/home/eugene/.ssh/ansible_id_rsa
+ansible_ssh_private_key_file=/home/masteruser/.ssh/ansible_id_rsa
 
 #remove once ssh public key has been sent
 #ansible_ssh_pass=

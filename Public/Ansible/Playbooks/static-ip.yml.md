@@ -7,7 +7,7 @@
   tasks:
     - name: Set static IP address for Oracle Linux 9 (MASTER)
       block:
-        - command: nmcli connection modify ens33 ipv4.method manual ipv4.addresses 172.16.16.72/24 ipv4.gateway 172.16.16.1 connection.interface-name ens33
+        - command: nmcli connection modify ens33 ipv4.method manual ipv4.addresses 172.16.16.x/24 ipv4.gateway 172.16.16.1 connection.interface-name ens33
           notify:
             - Restart network
   handlers:
@@ -16,14 +16,14 @@
         name: NetworkManager
         state: restarted
 
-- name: Set static IP address using nmcli for a specific NIC (CRASHOVERRIDE)
+- name: Set static IP address using nmcli for a specific NIC
   hosts: node1
   become: yes
 
   tasks:
     - name: Set static IP address for Rocky Linux 9
       block:
-        - command: nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.16.16.247/24 ipv4.gateway 172.16.16.1 connection.interface-name ens192
+        - command: nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.16.16.x/24 ipv4.gateway 172.16.16.1 connection.interface-name ens192
           notify:
             - Restart network
   handlers:
@@ -32,13 +32,13 @@
         name: NetworkManager
         state: restarted
 
-- name: Set static IP address for a specific NIC Debian 11 (CEREALKILLER)
+- name: Set static IP address for a specific NIC Debian 11
   hosts: node3
   become: yes
 
   vars:
     interface_name: ens192
-    ip_address: 172.16.16.102
+    ip_address: 172.16.16.x
     subnet_mask: 255.255.255.0
     gateway_address: 172.16.16.1
 
@@ -71,13 +71,13 @@
         name: networking
         state: restarted
 
-- name: Set static IP address for a specific NIC Debian 11 (ACIDBURN)
+- name: Set static IP address for a specific NIC Debian 11
   hosts: node2
   become: yes
 
   vars:
     interface_name: ens192
-    ip_address: 172.16.16.24
+    ip_address: 172.16.16.x
     subnet_mask: 255.255.255.0
     gateway_address: 172.16.16.1
 

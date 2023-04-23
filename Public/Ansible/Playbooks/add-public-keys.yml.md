@@ -5,7 +5,7 @@
   tasks:
   - name: Install Public Keys (MASTER)
     ansible.posix.authorized_key:
-      user: eugene
+      user: masteruser
       state: present
       key: "{{ lookup('file', '~/.ssh/ansible_id_rsa.pub') }}"
   - name: Change Sudoers File (Oracle 9)
@@ -13,16 +13,16 @@
       path: /etc/sudoers
       state: present
       regexp: '^%wheel'
-      line: '%eugene ALL=(ALL) NOPASSWD: ALL'
+      line: '%masteruser ALL=(ALL) NOPASSWD: ALL'
       validate: /usr/sbin/visudo -cf %s
 
-- hosts: crashoverride
+- hosts: node1
   become: yes
   become_method: sudo
   tasks:
-  - name: Install Public Keys (CRASHOVERRIDE)
+  - name: Install Public Keys
     ansible.posix.authorized_key:
-      user: zerocool
+      user: node1user
       state: present
       key: "{{ lookup('file', '~/.ssh/ansible_id_rsa.pub') }}"
   - name: Change Sudoers File (Rocky Linux 9)
@@ -30,15 +30,15 @@
       path: /etc/sudoers
       state: present
       regexp: '^%wheel'
-      line: '%zerocool ALL=(ALL) NOPASSWD: ALL'
+      line: '%node1user ALL=(ALL) NOPASSWD: ALL'
       validate: /usr/sbin/visudo -cf %s
 
-- hosts: acidburn
+- hosts: node2
   become: yes
   tasks:
-  - name: Install Public Keys (ACIDBURN)
+  - name: Install Public Keys
     ansible.posix.authorized_key:
-      user: kate
+      user: node2user
       state: present
       key: "{{ lookup('file', '~/.ssh/ansible_id_rsa.pub') }}"
   - name: Change Sudoers File (Debian 11)
@@ -46,16 +46,16 @@
       path: /etc/sudoers
       state: present
       regexp: '^%sudo'
-      line: '%kate ALL=(ALL) NOPASSWD: ALL'
+      line: '%node2user ALL=(ALL) NOPASSWD: ALL'
       validate: /usr/sbin/visudo -cf %s
 
 
-- hosts: cerealkiller
+- hosts: node3
   become: yes
   tasks:
-  - name: Install Public Keys (CEREALKILLER)
+  - name: Install Public Keys
     ansible.posix.authorized_key:
-      user: emmanuel
+      user: node3user
       state: present
       key: "{{ lookup('file', '~/.ssh/ansible_id_rsa.pub') }}"
   - name: Change Sudoers File (Debian 11)
@@ -63,6 +63,6 @@
       path: /etc/sudoers
       state: present
       regexp: '^%sudo'
-      line: '%emmanuel ALL=(ALL) NOPASSWD: ALL'
+      line: '%node3user ALL=(ALL) NOPASSWD: ALL'
       validate: /usr/sbin/visudo -cf %s
 ```

@@ -16,7 +16,7 @@
 - hosts: node1
   become: yes
   tasks:
-  - name: Install Samba and NFS Tools / multiple packages using dnf (CRASHOVERRIDE/ROCKY9)
+  - name: Install Samba and NFS Tools / multiple packages using dnf (ROCKY9)
     dnf:
       name:
         - samba
@@ -29,7 +29,7 @@
 - hosts: node2
   become: yes
   tasks:
-  - name: Install Samba and NFS Tools / multiple packages using apt (ACIDBURN/DEBIAN11)
+  - name: Install Samba and NFS Tools / multiple packages using apt (DEBIAN11)
     apt:
       name:
         - samba
@@ -43,7 +43,7 @@
 - hosts: node3
   become: yes
   tasks:
-  - name: Install Samba and NFS Tools / multiple packages using apt (CEREALKILLER/DEBIAN11)
+  - name: Install Samba and NFS Tools / multiple packages using apt (DEBIAN11)
     apt:
       name:
         - samba
