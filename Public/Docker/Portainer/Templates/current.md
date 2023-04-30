@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/TheLustriVA/portainer-templates-Nov-2022-collection/main/mlva-templates-2.0-deduped.json

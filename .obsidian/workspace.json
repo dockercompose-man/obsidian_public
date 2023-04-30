@@ -4,143 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6b2a9fa889be87dd",
+        "id": "d2f24d5900e8c562",
         "type": "tabs",
         "children": [
           {
-            "id": "34a752a2ec82cdf9",
+            "id": "955599467cf588e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Scripts/Python/debian-security-only.py.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b88aff4f45bde0ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Scripts/Python/rocky-security-only.py.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "090be5f3d5196ec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Scripts/Python/rocky-security-only-yum.py.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdae1ac0e64af97a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Windows/Windows User Management/Active Directory/Powershell/file-management.ps1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97d42bd96226bfb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Windows/Windows User Management/Active Directory/Powershell/group-management.ps1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3363268741d9edb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Windows/Windows User Management/Active Directory/Powershell/user-management.ps1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b19eef487c0f9b45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Linux/Linux User Management/disk-quotas.bash.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a4a464b5e31dfb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Linux/Linux User Management/file-management.bash.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71f02db897eb97bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Linux/Linux User Management/group-management.bash.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4196045dfbf9e95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Linux/Linux User Management/permissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "497935e92964fad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/Linux/Linux User Management/file-management.bash.md",
+                "file": "Public/Docker/Watchtower.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Linux/Linux User Management/file-management.bash.md",
+                "file": "Public/Docker/Watchtower.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Linux/Linux User Management/file-management.bash.md",
+                "file": "Public/Docker/Watchtower.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Linux/Linux User Management/file-management.bash.md"
+                "file": "Public/Docker/Watchtower.md"
               }
             }
           },
@@ -279,39 +158,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "497935e92964fad8",
+  "active": "955599467cf588e1",
   "lastOpenFiles": [
-    "Public/Linux/Linux User Management/user-management.bash.md",
-    "Public/Linux/Linux User Management/group-management.bash.md",
+    "Public/Docker/Portainer/Templates/old_templates.md",
+    "Public/Docker/Watchtower.md",
+    "Public/Docker/Portainer/Templates/current.md",
+    "Public/Docker/Portainer/Install Portainer.md",
+    "Public/Docker/Portainer/Templates",
+    "Public/Docker/Install Docker/Install Docker Oracle 9.md",
+    "Public/Docker/Portainer",
+    "Public/Docker/Install Docker/Install Docker Rocky 8-9.md",
+    "Public/Docker/Install Docker/Install Docker on Raspberry Pi.md",
+    "Public/Docker/Install Docker/Install Docker Debian 11.md",
+    "Public/Docker/Docker Commands/Docker Basic Commands.md",
+    "Public/Docker/Install Docker",
+    "Public/Docker/Docker Commands",
+    "Public/Docker",
+    "Public/Linux/Encryption/Using Encryption.md",
+    "Public/Linux/Encryption/SSH Keys.md",
+    "Public/Linux/Encryption/GPG.md",
+    "Public/Linux/Linux Must Know Commands.md",
     "Public/Linux/Linux User Management/file-management.bash.md",
     "Public/Linux/Linux User Management/permissions.md",
+    "Public/Linux/Linux User Management/group-management.bash.md",
     "Public/Linux/Linux User Management/disk-quotas.bash.md",
     "Public/Windows/Windows User Management/Active Directory/Powershell/user-management.ps1.md",
-    "Public/Linux/Linux User Management",
-    "Public/Linux",
     "Public/Windows/Windows User Management/Active Directory/Powershell/group-management.ps1.md",
     "Public/Windows/Windows User Management/Active Directory/Powershell/file-management.ps1.md",
     "Public/Scripts/Python/rocky-security-only-yum.py.md",
+    "Public/Linux/Encryption",
+    "Public/Linux/Linux User Management/user-management.bash.md",
+    "Public/Linux/Linux User Management",
+    "Public/Linux",
     "Public/Windows/Windows User Management/Active Directory/Powershell",
     "Public/Windows/Windows User Management/Active Directory",
-    "Public/Windows/Windows User Management",
-    "Public/Windows",
     "Public/Scripts/Python/rocky-security-only.py.md",
     "Public/Scripts/Python/debian-security-only.py.md",
     "Public/Scripts/BASH/debian-security-only.sh.md",
-    "Public/Scripts/Python",
-    "Public/Scripts/BASH/rocky-security-only.sh.md",
-    "Public/Kubernetes/K8S/Kubectl/Basic kubectl commands.md",
-    "Public/Scripts/BASH",
-    "Public/Scripts",
-    "Public/Kubernetes/K8S",
-    "Public/Kubernetes/K8S/Kubectl/Notes.md",
-    "Public/Ansible/Playbooks/static-ip.yml.md",
-    "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
-    "Public/Ansible/Playbooks/ansible.cfg.md",
-    "Public/Ansible/Playbooks/default-inventory.md",
-    "Public/Ansible/Playbooks/add-public-keys.yml.md",
-    "Public/Public Test 2.md",
-    "Public/Public Test.md"
+    "Public/Scripts/BASH/rocky-security-only.sh.md"
   ]
 }
