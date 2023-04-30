@@ -1,3 +1,12 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "obsidian-icon-folder",
+  "obsidian-kanban",
+  "periodic-notes",
+  "obsidian-projects",
+  "quickadd",
+  "templater-obsidian"
 ]
