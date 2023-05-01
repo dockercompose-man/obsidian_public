@@ -1,0 +1,15 @@
+```yaml
+version: '3.3'
+    
+services:
+  authelia:
+    image: authelia/authelia
+    container_name: authelia
+    volumes:
+      - /home/user/.authelia:/config #change this to a shared folder on your system. DO NOT use a "volume"
+    ports:
+      - 9091:9091
+    environment:
+      - TZ=America/Denver
+
+```

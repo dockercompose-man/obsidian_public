@@ -1,0 +1,8 @@
+```yaml
+#AUTHELIA_DB_HOST=
+DB_ROOT_PASSWORD=
+DB_NAME=authelia
+DB_USER=authelia
+DB_PASSWORD=
+```
+
