@@ -1,6 +1,6 @@
 #### **Checksums**
 
-##Create Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
+##### Create Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
 #MD5
 ```bash
 md5sum <filename>
@@ -13,7 +13,7 @@ sha256sum <filename>
 ```bash
 sha512sum <filename>
 ```
-##Check Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
+##### Check Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
 #MD5 
 ```bash
 md5sum -c <checksum_file>
@@ -27,7 +27,7 @@ sha256sum -c <checksum_file>
 sha512sum -c <checksum_file>
 ```
 
-##Create Checksums WILDCARD (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
+##### Create Checksums WILDCARD (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
 #MD5 
 ```bash
 md5sum /path/to/files/* > /path/to/checksum/file.md5
@@ -53,7 +53,7 @@ OR
 sha512sum /path/to/files/*.txt > /path/to/checksum/file.sha512
 ```
 
-##Check WILDCARD Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
+##### Check WILDCARD Checksums (Debian/Ubuntu, OpenSUSE, RHEL/Oracle/Rocky 9)
 #MD5 
 ```powershell
 find /path/to/directory -name "filename_pattern*" -type f -exec md5sum {} \;
@@ -79,32 +79,32 @@ OR
 find /path/to/directory -name "filename_pattern*.txt" -type f -exec sha512sum {} \;
 ```
 
-##Finding Files in the Linux File System
+##### Finding Files in the Linux File System
 ```bash
 find path -name “filename”
 ```
-##Example
+##### Example
 ```bash
 find / -name “*.log”
 ```
 
-##Using Locate
+##### Using Locate
 ```bash
 locate filename
 ```
-##Using Which
+##### Using Which
 ```bash
 which ls
 ```
-##Using Whereis
+##### Using Whereis
 ```bash
 whereis -b ls
 ```
-##Using Type
+##### Using Type
 ```bash
 type cat
 ```
-##Using -a return all instances of the specified command in the file system
+##### Using -a return all instances of the specified command in the file system
 ```bash
 type -a ip
 ```

@@ -25,14 +25,16 @@ drwxr-xr-x 2 ksanders users 4096 Nov 25 17:30 bin
 The **next three** characters are the permissions assigned to the owning **group**.  
 The **last three** characters in the mode are the permissions assigned to **others**.
 
-**##read/write permissions to users and group but 0 permissions to others**
+##### read/write permissions to users and group but 0 permissions to others
 ```bash
 chmod 660 contacts.odt
 ```
 
-##Increase Overall Security with Umask
-**##default umask 022 (Owner no permissions removed, Group/Other Write values removed)**
-**##each digit represents a numeric permission value to be removed.**
+#### Increase Overall Security with Umask
+
+##### default umask 022 (Owner no permissions removed, Group/Other Write values removed)
+
+##### each digit represents a numeric permission value to be removed.
 
 ```bash
 umask 022
@@ -42,9 +44,11 @@ The **first** digit references **Owner**
 The **second** digit references **Group**
 The **third** digit references **Other**
 
-##**remove execute permission that is automatically assigned to others whenever a new directory is created  
-umask 023**
-##**umask** is **stored** in **/etc/profile** file or the **/etc/login.defs** file depending on your distribution
+##### remove execute permission that is automatically assigned to others whenever a new directory is created  
+
+umask 023
+
+##### **umask** is **stored** in **/etc/profile** file or the **/etc/login.defs** file depending on your distribution
 
 
 #### **Working with Special Permissions**
@@ -57,8 +61,9 @@ SUID: 4
 SGID: 2  
 Sticky Bit: 1
 
-**##Simple add an extra number to the beginning of the mode that references the special permissoins you want to associate with the file or directory.  
-##example applying SUID and SGID permissions to a file named run me that should be readable and executable by the Owner and Group.**
+##### Simple add an extra number to the beginning of the mode that references the special permissoins you want to associate with the file or directory.  
+
+##### example applying SUID and SGID permissions to a file named run me that should be readable and executable by the Owner and Group.
 ```bash
 chmod 6554 runme
 ```
@@ -69,12 +74,13 @@ Other files owned by root/root that have the SUID/SGID permissions set represent
 
 **A file that has the SGID permissions set**  
 -rw-r-Sr-x
-##Search for Files on your Linux System that have SUID Permissions Set
+
+##### Search for Files on your Linux System that have SUID Permissions Set
 ```bash
 find / -type f -perm -u=s -ls
 ```
 
-##Search for Files on your Linux system that have the SGID Permissions Set**
+##### Search for Files on your Linux system that have the SGID Permissions Set**
 ```bash
 find / -type f -perm -g=s -ls
 ```
