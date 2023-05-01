@@ -72,7 +72,7 @@ You don’t have to use port 2345. You can use the same port on both ends if des
 
 #### **Configuring Evolution to use an SSH tunnel**
 
-##Test the Tunnel you created
+##### Test the Tunnel you created
 ```bash
 telnet localhost client_tunnel_port
 ```

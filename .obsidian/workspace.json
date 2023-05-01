@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Linux/Linux Must Know Commands.md",
+                "file": "Public/Linux/Encryption/Using Encryption.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Linux/Linux Must Know Commands.md",
+                "file": "Public/Linux/Encryption/Using Encryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Linux/Linux Must Know Commands.md",
+                "file": "Public/Linux/Encryption/Using Encryption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Linux/Linux Must Know Commands.md"
+                "file": "Public/Linux/Encryption/Using Encryption.md"
               }
             }
           },
@@ -160,6 +160,9 @@
   },
   "active": "955599467cf588e1",
   "lastOpenFiles": [
+    "Public/Linux/Encryption/SSH Keys.md",
+    "Public/Linux/Encryption/GPG.md",
+    "Public/Linux/Linux Must Know Commands.md",
     "Public/Linux/Linux User Management/user-management.bash.md",
     "Public/Linux/Linux User Management/permissions.md",
     "Public/Linux/Linux User Management/group-management.bash.md",
@@ -180,9 +183,6 @@
     "Public/Docker/Docker Commands",
     "Public/Docker",
     "Public/Linux/Encryption/Using Encryption.md",
-    "Public/Linux/Encryption/SSH Keys.md",
-    "Public/Linux/Encryption/GPG.md",
-    "Public/Linux/Linux Must Know Commands.md",
     "Public/Windows/Windows User Management/Active Directory/Powershell/user-management.ps1.md",
     "Public/Windows/Windows User Management/Active Directory/Powershell/group-management.ps1.md",
     "Public/Windows/Windows User Management/Active Directory/Powershell/file-management.ps1.md",

@@ -53,7 +53,9 @@ Version Number and Revison Date
 **/** = **search** in the manpages
 
 **man -k** = search across all manual page names and descriptions to find a specific keyword.
+
 **man -k “remove empty”**
+
 ```bash
 man -k remove specific_keyword
 ```
@@ -64,7 +66,7 @@ man -k remove specific_keyword
 apropos remove specific_keyword
 ```
 
-##Adding a path to the path variable
+##### Adding a path to the path variable
 ```bash
 PATH=$PATH:/var/opt/mydb
 ```
@@ -75,29 +77,31 @@ PATH=$PATH:/var/opt/mydb
 export variable
 ```
 
-##exporting path variables get set to one of the following bash configuration files:
+##### exporting path variables get set to one of the following bash configuration files:
 ~/.bashrc  
 /etc/profile  
 ~/.bash_profile  
 ~/.bash_login  
 ~/.profile
 
-##Change your shell prompt to display the currently logged-in user, the name of the Linux host, the current time, the full path to the current working directory, and a colon by doing the following:
+##### Change your shell prompt to display the currently logged-in user, the name of the Linux host, the current time, the full path to the current working directory, and a colon by doing the following:
 ```bash
 PS1=“[\u@\h \t \w]:”.
 ```
 
-**Working with Aliases**
-##View All Aliases on Linux System
+### Working with Aliases
+
+##### View All Aliases on Linux System
 ```bash
 alias
 ```
-**##Create your own Alias**
+
+##### Create your own Alias
 ```bash
 alias name=”command” example: alias ldir=”ls -l”
 ```
 
-**##Command to Mount DVD Drive**
+##### Command to Mount DVD Drive
 ```bash
 alias mntdvd="mount –t iso9660 /dev/sr0 /media/dvd;ls –l /media/dvd"
 ```
@@ -108,73 +112,75 @@ alias mntdvd="mount –t iso9660 /dev/sr0 /media/dvd;ls –l /media/dvd"
 ##### **stdout** – standard output. Represented by the number 1
 ##### **stderr** – standard error. Represented by the number 2
 
-##Redirecting Output
+##### Redirecting Output
 ```bash
 command output>filename_or_device
 ```
-**##tail to output to file lastmessages.log**
+
+##### tail to output to file lastmessages.log
 ```bash
 tail /var/log/messages 1>lastmessages.log
 ```
 
-**##if you don’t enter a file descriptor number in the command, the shell will assume that you want to redirect only the stout from the command. Entering the following will achieve the same result.**
+##### if you don’t enter a file descriptor number in the command, the shell will assume that you want to redirect only the stout from the command. Entering the following will achieve the same result.
+
 ```bash
-tail /var/log/messages >lastmessages.log
+tail /var/log/messages > lastmessages.log
 ```
 
-##redirect both stderr and stdout to text files at the same time.
+##### redirect both stderr and stdout to text files at the same time.
 ```bash
-command 1>stout_filename 2>sderr_filename
+command 1>stout_filename 2> sderr_filename
 ```
 
-##send both outputs to ONE file
+##### send both outputs to ONE file
 ```bash
 command 1>filename 2> &1
 ```
 
-##Redirecting Input
+##### Redirecting Input
 ```bash
 command < input_text_or_file.
 ```
 
-##tail var messages, sends text string
+##### tail var messages, sends text string
 ```bash
 tail < /var/log/messages
 ```
 
-##specify a file is to be used as an input with the sort command
+##### specify a file is to be used as an input with the sort command
 ```bash
 sort < words
 ```
 
-#### **Piping Information**
+### Piping Information
 
-##displays pages one at a time**
+##### displays pages one at a time
 ```bash
 cat /var/log/messages | more
 ```
 
-##pipes the output of the first command to the input of grep, which then searches for information that matches the specified expression  
+##### pipes the output of the first command to the input of grep, which then searches for information that matches the specified expression  
 ```bash
 command |grep expression
 ```
 
-##search for ifup in the output of cat
+##### search for ifup in the output of cat
 ```bash
 cat /var/log/messages | grep ifup
 ```
 
-##adding the more option
+##### adding the more option
 ```bash
 cat /var/log/messages | grep ifup | more
 ```
 
-##output and write to file at the same time
+##### output and write to file at the same time
 ```bash
 command | tee file_name (output.txt)  ls -l | tee output.txt
 ```
 
-#### **Searching Commands**
+### Searching Commands
 
 **less** – automatically pauses a long text file one page at a time
 
@@ -182,22 +188,23 @@ command | tee file_name (output.txt)  ls -l | tee output.txt
 
 **tail** – displays the last couple of lines of a text file on screen.
 
-**##using the -f option to monitor a specific file. Example an on going log file.**
+##### using the -f option to monitor a specific file. Example an on going log file.
 ```bash
 tail -f /var/log/messages
 ```
 
-#### **Finding Content within Files**
-##Using Grep
+### Finding Content within Files
+
+##### Using Grep
 ```bash
 grep search_expression file_name
 ```
-##Example
+##### Example
 ```bash
 grep vnc /var/log/messages
 ```
 
-##find a line in filename.conf that contains the directive “server”
+##### find a line in filename.conf that contains the directive “server”
 ```bash
 grep server /etc/filename.conf
 ```
@@ -214,7 +221,7 @@ grep server /etc/filename.conf
 
 **fgrep – (fixed-string grep)** searches files for lines that match a fixed string. Direct string comparisons to find matching lines of text in the input. Fgrep pattern filename.  
 
-##searches for the string server in all files in the current directory whose filename has a .c extension  
+##### searches for the string server in all files in the current directory whose filename has a .c extension  
 ```bash
 fgrep server *.c
 ```
@@ -234,17 +241,17 @@ fgrep -l 192.168 /etc/
 sudo less /etc/group | grep username
 ```
 
-##View all entries in your system log that contain the word “kernel” by piping the output from cat to grep.
+##### View all entries in your system log that contain the word “kernel” by piping the output from cat to grep.
 ```bash
 cat /var/log/messages | grep kernel
 ```
 
-##The output from the preceeding command was probably very long. Pipe the output from cat to grep to more by entering
+##### The output from the preceeding command was probably very long. Pipe the output from cat to grep to more by entering
 ```bash
 cat /var/log/messages | grep kernel | more
 ```
 
-##Send the output from the preceding command to the screen and to a file named kernel.txt
+##### Send the output from the preceding command to the screen and to a file named kernel.txt
 ```bash
 cat /var/log/messages | grep kernel | tee ~/kernel.txt
 ```
@@ -261,7 +268,7 @@ The **tail** command also includes the –f option, which is very useful. You ca
 
 #### **Using top** (shows limited number of processes)
 
-##Viewing Running Processes
+##### Viewing Running Processes
 ```bash
 top
 ```
@@ -269,34 +276,36 @@ top
 **to add or remove a field press space**
 
 #### **Using ps** (dynamically displays information)
-##View All running Processes
+##### View All running Processes
 ```bash
 ps -e
 ```
 
-##Display Extended Information
+##### Display Extended Information
 ```bash
 ps -ef
 ```
 
-##Display Extended Information (Long Form)
+##### Display Extended Information (Long Form)
 ```bash
 ps -efl
 ```
 
-#### **Using free –** displays the amount of free and allocated RAM and swap memory  
-##Display memory statistics  
+### **Using free –** displays the amount of free and allocated RAM and swap memory  
+
+##### Display memory statistics  
 ```bash
 free -m
 ```
 
-##Display Totals for Each Category of information
+##### Display Totals for Each Category of information
 ```bash
 free -mt
 ```
 
-#### **Using pgrep –** grepping the ps command
-##View Name of Processes as well as PID
+### **Using pgrep –** grepping the ps command
+
+##### View Name of Processes as well as PID
 ```bash
 pgrep -l -u rtracy
 ```
@@ -305,26 +314,34 @@ pgrep -l -u rtracy
 **-f** - name matches on the specified process name
 **-u user_name** – matches on the specified process owner
 
-#### **Using Nice**
-##Set Nice Level
+### Using Nice
+
+##### Set Nice Level
 ```bash
 nice -n nice_level command
 ```
 
-#### **Using Renice**
-##Set Renice Level
+### Using Renice
+
+##### Set Renice Level
 ```bash
 renice nice_valud PID
 ```
 
-#### **Running a program in the background**
-Append the program with an ampersand **&** character to the command
-##View Job status
+### Running a program in the background
+
+##### Append the program with an ampersand **&** character to the command
+##### Example
+```bash
+sudo systemctl start [service] &
+```
+
+##### View Job status
 ```bash
 jobs
 ```
 
-##Switching to foreground
+##### Switching to foreground
 ```bash
 fg job_ID
 ```
@@ -334,29 +351,30 @@ fg job_ID
 bg job_ID
 ```
 
-**Keep a Process Running After Logout**
-##If you have to leave now but run a script that takes hours… run, then logout
+##### Keep a Process Running After Logout
+###### If you have to leave now but run a script that takes hours… run, then logout
 ```bash
 nohup updatemydb &
 ```
 
-#### **Ending a Running Process**
+### Ending a Running Process
 
-#### **Using kill and killall**
-##### **killall lets you use the process name instead of PID**
+### Using kill and killall
+##### killall lets you use the process name instead of PID
 
 **SIGHUP** – This kill **signal 1**. **Restarts** the **process**. After a restart, the process will have exactly the same PID that it had before
 **SIGINT** – This kill **signal 2**. This signal sends a **CTRL+C** key sequence to the process
 **SIGKILL** – This is kill **signal 9**. This is a **brute**-**force** signal that kills the process. May not clean up after itself if this signal is used
 **SIGTERM** – This is kill **signal 15**. This signal tells the process to **terminate** **immediately**. This is the **default** **signal** sent by kill if you omit a signal.
 
-#### **Using pkill – is a cousin of pgrep command**
-##Search through All Running Processes for those named “vi” and then send a SIGTERM signal**
+### Using pkill – is a cousin of pgrep command
+
+##### Search through All Running Processes for those named “vi” and then send a SIGTERM signal**
 ```bash
 pkill -SIGTERM -f vi
 ```
 
-#### **Using the AT daemon**
+### Using the AT daemon
 ```bash
 systemctl start atd
 ```
@@ -364,57 +382,56 @@ systemctl start atd
 **/etc/at.allow** – users listed in this file are allowed to create at jobs
 **/etc/at.deny** – users listed in this file are not allowed to create at jobs
 
-##If you want to run the tail /var/log/messages command in the future with at
+##### If you want to run the tail /var/log/messages command in the future with at
 ```bash
 tail /var/log/messages > ~/atoutput.txt at the at> prompt
 ```
 
-##View Pending AT Jobs**
+##### View Pending AT Jobs
 ```bash
 atq
 ```
 
-##Remove Jobs
+##### Remove Jobs
 ```bash
 atrm job_number
 ```
 
-#### **Cron**
+### Cron
 
 ##### **/etc/cron.hourly  
 ##### /etc/cron.daily  
 ##### /etc/cron.weekly  
 ##### /etc/cron.monthly**
 
-#### **User Jobs**
+### User Jobs
 ##### /var/spool/cron/tabs
 
-##List User’s crontab file
+##### List User’s crontab file
 ```bash
 crontab -l
 ```
 
-##Remove a User’s crontab file
+##### Remove a User’s crontab file
 ```bash
 crontab -r
 ```
 
 
-
-#### **Working with Link Files**
+### Working with Link Files
 
 **Hard** – a hard link is a file that points directly to the inode of another file. An inode stores basic information about a file in the Linux file system, including it’s size, device, owner and permissions.
 **Symbolic** – a symbolic link file also points to another file in the file system. However, a symbolic link has is own inode. You can tell them apart.
 
-**##To create a link file use the ln command**
+##### To create a link file use the ln command
 ```bash
 ln pointee_file pointer_file
 ```
 
-**##**The **bin** subdirectory of **my** **home** **directory** is **automatically** **added** to the **PATH environment variable** by my bash configuration files. By **placing** the **symbolic** **link** in this directory, I **can** **run** the **/var/opt/myapp** 
-**executable** by simply **entering** **myapp** at the shell prompt**##**
+The **bin** subdirectory of **my** **home** **directory** is **automatically** **added** to the **PATH environment variable** by my bash configuration files. By **placing** the **symbolic** **link** in this directory, I **can** **run** the **/var/opt/myapp** 
+**executable** by simply **entering** **myapp** at the shell prompt
 
-#### **Using Tar**
+### Using Tar
 ##### **Extracting a tarball (-z** option use **Gzip**, **-x** option tells tar to **extract** the **files** from the decompressed archive file. **-v** option tells tar to operate **verbosely**. **-f** option tells tar the **name** **of** the **file** to extract)
 ```bash
 tar –zxvf pure-ftpd-1.0.29.tar.gz
