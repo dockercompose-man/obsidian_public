@@ -1,4 +1,4 @@
-##Create Checksum
+##### Create Checksum
 #MD5 
 ```powershell
 Get-FileHash <filename> -Algorithm MD5 | Select-Object -ExpandProperty Hash
@@ -11,7 +11,8 @@ Get-FileHash <filename> -Algorithm SHA256 | Select-Object -ExpandProperty Hash
 ```powershell
 Get-FileHash <filename> -Algorithm SHA512 | Select-Object -ExpandProperty Hash
 ```
-##Check a Checksum
+
+##### Check a Checksum
 #MD5 
 ```powershell
 (Get-FileHash <filename> -Algorithm MD5).Hash -eq (Get-Content <checksum_file>)
@@ -25,7 +26,7 @@ Get-FileHash <filename> -Algorithm SHA512 | Select-Object -ExpandProperty Hash
 (Get-FileHash <filename> -Algorithm SHA512).Hash -eq (Get-Content <checksum_file>)
 ```
 
-##Create Checksum WILDCARD
+##### Create Checksum WILDCARD
 #MD5 
 ```powershell
 Get-ChildItem -Path "C:\path\to\files\*" | ForEach-Object { Get-FileHash $_.FullName -Algorithm MD5 } | Out-File -FilePath "C:\path\to\checksum\file.md5"
@@ -51,7 +52,7 @@ OR
 Get-ChildItem -Path "C:\path\to\files\*.txt" | ForEach-Object { Get-FileHash $_.FullName -Algorithm SHA512 } | Out-File -FilePath "C:\path\to\checksum\file.sha512"
 ```
 
-##Check WILDCARD Checksums
+##### Check WILDCARD Checksums
 #MD5 
 ```powershell
 Get-ChildItem -Path "C:\path\to\files\*" -Recurse | ForEach-Object { If ((Get-FileHash $_.FullName -Algorithm MD5).Hash -ne (Get-Content "C:\path\to\checksum\file.md5" | Where-Object { $_ -match $_.Name })[0].Substring(0, 32)) { Write-Host "$($_.FullName) failed MD5 checksum verification" } }
