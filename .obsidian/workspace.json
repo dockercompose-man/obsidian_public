@@ -162,9 +162,237 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47016e5e3ee8aa64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/fail2ban/env.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e7cd0fbd6799159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/fail2ban/npm-docker.conf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6f0624854888fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/fail2ban/npm-docker.local.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e46a4cf8dbd964a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/fail2ban/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b7c2b7614265060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/guacamole/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f221dc3501341f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/guacamole/env.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adefaac05d0e6e60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/guacamole/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dafdebb2fe0c9c9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/homer/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0371c028d03a3e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/homer/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39f7dd5a3d3c4c64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/influxdb/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d9f577bb5e2de9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/influxdb/env.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e52e9eda2e5f6c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/influxdb/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8294018342d5b5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/invoiceninja/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e4b1bb00b52ddf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/invoiceninja/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "187a66d11bd91652",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/jenkins/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b298a6b6a7fc514c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/jenkins/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7184a4f35a15697d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/nextcloud/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cb8e1a3d2e0d972",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/nextcloud/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "538b133b91b1be0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Public/Docker/Docker-Compose/nginx-proxy-manager/docker-compose.yml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -230,7 +458,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Docker/Docker-Compose/fail2ban/docker-compose.yml.md",
+                "file": "Public/Docker/Docker-Compose/nginx-proxy-manager/docker-compose.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +475,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Docker/Docker-Compose/fail2ban/docker-compose.yml.md",
+                "file": "Public/Docker/Docker-Compose/nginx-proxy-manager/docker-compose.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +498,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Docker/Docker-Compose/fail2ban/docker-compose.yml.md"
+                "file": "Public/Docker/Docker-Compose/nginx-proxy-manager/docker-compose.yml.md"
               }
             }
           },
@@ -303,43 +531,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bd921815167a9eee",
+  "active": "538b133b91b1be0a",
   "lastOpenFiles": [
-    "Public/Docker/Docker-Compose/fail2ban/cloudflare-apiv4.conf.md",
+    "Public/Docker/Docker-Compose/nextcloud/README.md",
+    "Public/Docker/Docker-Compose/nginx-proxy-manager/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/nginx-proxy-manager",
+    "Public/Docker/Docker-Compose/nextcloud/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/jenkins/README.md",
+    "Public/Docker/Docker-Compose/nextcloud",
+    "Public/Docker/Docker-Compose/jenkins/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/invoiceninja/README.md",
+    "Public/Docker/Docker-Compose/jenkins",
+    "Public/Docker/Docker-Compose/invoiceninja/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/influxdb/README.md",
+    "Public/Docker/Docker-Compose/invoiceninja",
+    "Public/Docker/Docker-Compose/influxdb/env.md",
+    "Public/Docker/Docker-Compose/influxdb/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/homer/README.md",
+    "Public/Docker/Docker-Compose/influxdb",
+    "Public/Docker/Docker-Compose/homer/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/guacamole/README.md",
+    "Public/Docker/Docker-Compose/homer",
+    "Public/Docker/Docker-Compose/guacamole/env.md",
+    "Public/Docker/Docker-Compose/guacamole/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/fail2ban/README.md",
+    "Public/Docker/Docker-Compose/guacamole",
+    "Public/Docker/Docker-Compose/fail2ban/npm-docker.local.md",
+    "Public/Docker/Docker-Compose/fail2ban/npm-docker.conf.md",
+    "Public/Docker/Docker-Compose/fail2ban/env.md",
     "Public/Docker/Docker-Compose/fail2ban/docker-compose.yml.md",
+    "Public/Docker/Docker-Compose/fail2ban/cloudflare-apiv4.conf.md",
     "Public/Docker/Docker-Compose/emulatorjs/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/fail2ban",
     "Public/Docker/Docker-Compose/duplicati/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/emulatorjs/Untitled",
     "Public/Docker/Docker-Compose/emulatorjs",
     "Public/Docker/Docker-Compose/coturn/README.md",
-    "Public/Docker/Docker-Compose/duplicati",
     "Public/Docker/Docker-Compose/coturn/turnserver.conf.md",
-    "Public/Docker/Docker-Compose/coturn/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/cameras-kerberos/README.md",
-    "Public/Docker/Docker-Compose/coturn",
-    "Public/Docker/Docker-Compose/cameras-kerberos/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/bind9/config/named.conf.md",
-    "Public/Docker/Docker-Compose/cameras-kerberos",
-    "Public/Docker/Docker-Compose/bind9/config/dns-yourdomain.ca.md",
-    "Public/Docker/Docker-Compose/bind9/README.md",
-    "Public/Docker/Docker-Compose/bind9/config",
-    "Public/Docker/Docker-Compose/bind9/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/Untitled.md",
-    "Public/Docker/Docker-Compose/bind9",
-    "Public/Docker/Docker-Compose/authelia/users_database.yml.md",
-    "Public/Docker/Docker-Compose/authelia/configuration.yml.md",
-    "Public/Docker/Docker-Compose/authelia/protected Domain CONF 192.md",
-    "Public/Docker/Docker-Compose/authelia/authelia CONF 192.md",
-    "Public/Docker/Docker-Compose/authelia/README.md",
-    "Public/Docker/Docker-Compose/authelia/env.md",
-    "Public/Docker/Docker-Compose/authelia/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/adminer/README.md",
-    "Public/Docker/Docker-Compose/authelia",
-    "Public/Docker/Docker-Compose/adminer/env.md",
-    "Public/Docker/Docker-Compose/adminer/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/adguard/README.md",
-    "Public/Docker/Docker-Compose/adminer",
-    "Public/Docker/Docker-Compose/adguard/docker-compose.yml.md"
+    "Public/Docker/Docker-Compose/coturn/docker-compose.yml.md"
   ]
 }

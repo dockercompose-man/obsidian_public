@@ -1,0 +1,6 @@
+```bash
+DB_HOSTNAME=
+DB_NAME=
+DB_PASSWORD=
+DB_USER=
+```

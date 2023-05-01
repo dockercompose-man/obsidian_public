@@ -9,9 +9,9 @@ services:
       - NET_ADMIN
       - NET_RAW
     volumes:
-      - "/home/eugene/fail2ban/data:/data"
+      - "/home/username/fail2ban/data:/data"
       - "/var/log/auth.log:/var/log/auth.log:ro"
-      - "/portainer/Files/AppData/Config/Nginx-Proxy/data/logs/:/log/npm/:ro"
+      - "/path/to/Nginx-Proxy/data/logs/:/log/npm/:ro"
     restart: always
     environment:
           - TZ=America/Denver

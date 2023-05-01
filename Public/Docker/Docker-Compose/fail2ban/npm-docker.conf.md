@@ -1,0 +1,9 @@
+```bash
+[INCLUDES]
+
+[Definition]
+
+failregex = ^<HOST>.+" (4\d\d|3\d\d) (\d\d\d|\d) .+$
+            ^.+ 4\d\d \d\d\d - .+ \[Client <HOST>\] \[Length .+\] ".+" .+$
+
+```
