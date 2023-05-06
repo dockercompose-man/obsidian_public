@@ -11,8 +11,12 @@
             "id": "17bd212a8946ab2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "0082cc094d015bf7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Public/Ansible/Playbooks/upload-autoupdate.yml.md"
+              }
             }
           },
           {
@@ -152,6 +168,14 @@
   },
   "active": "17bd212a8946ab2a",
   "lastOpenFiles": [
+    "Public/Ansible/Playbooks/static-ip.yml.md",
+    "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+    "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
+    "Public/Ansible/Playbooks/default-inventory.md",
+    "Public/Ansible/Playbooks/add-public-keys.yml.md",
+    "Public/Ansible/Playbooks/ansible.cfg.md",
+    "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
+    "Public/Scripts/BASH/debian-security-only.sh.md",
     "Public/Docker/Docker-Compose/bind9/README.md",
     "Public/Docker/Docker-Compose/ansible-semaphore/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/phpmyadmin/docker-compose.yml.md",
@@ -171,17 +195,9 @@
     "Public/Docker/Docker-Compose/wordpress/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/watchtower/Run Watchtower.md",
     "Public/Docker/Docker-Compose/wordpress",
-    "Public/Docker/Docker-Compose/vaultwarden/README.md",
     "Public/Docker/Docker-Compose/watchtower",
-    "Public/Docker/Docker-Compose/vaultwarden/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/vanilla-forums/README.md",
     "Public/Docker/Docker-Compose/vaultwarden",
-    "Public/Docker/Docker-Compose/vanilla-forums/env.md",
-    "Public/Docker/Docker-Compose/vanilla-forums/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/uptime-kuma/README.md",
     "Public/Docker/Docker-Compose/vanilla-forums",
-    "Public/Docker/Docker-Compose/uptime-kuma/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/transmission/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/uptime-kuma",
     "Public/Docker/Docker-Compose/transmission",
     "Public/Docker/Docker-Compose/teleport/config",
