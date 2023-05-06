@@ -18,7 +18,7 @@
       cron:
         name: "{{ cron_job_name }}"
         user: root
-        job: "/home/your_username/{{ script_name }}"
+        job: "/home/{{ username }}/{{ script_name }}"
         special_time: daily
 #        minute: "{{ cron_schedule.split(' ')[0] }}"
 #        hour: "{{ cron_schedule.split(' ')[1] }}"
