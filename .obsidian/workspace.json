@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+                "file": "Public/Kubernetes/K3S/K3S Install.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+                "file": "Public/Kubernetes/K3S/K3S Install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+                "file": "Public/Kubernetes/K3S/K3S Install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Ansible/Playbooks/cron-autoupdate.yml.md"
+                "file": "Public/Kubernetes/K3S/K3S Install.md"
               }
             }
           },
@@ -168,12 +168,14 @@
   },
   "active": "17bd212a8946ab2a",
   "lastOpenFiles": [
+    "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+    "Public/Kubernetes/K3S/K3S Install.md",
+    "Public/Kubernetes/K3S",
     "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
     "Public/Linux/Linux Must Know Commands.md",
     "Public/Linux/Linux User Management/user-management.bash.md",
     "Public/Scripts/BASH/debian-security-only.sh.md",
     "Public/Ansible/Playbooks/static-ip.yml.md",
-    "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
     "Public/Ansible/Playbooks/nfs-samba-tools.yml.md",
     "Public/Ansible/Playbooks/default-inventory.md",
     "Public/Ansible/Playbooks/add-public-keys.yml.md",
@@ -193,7 +195,6 @@
     "Public/Docker/Docker-Compose/bind9/config/named.conf.md",
     "Public/Docker/Watchtower.md",
     "Public/Docker/Docker-Compose/bind9/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/wordpress/README.md",
     "Public/Docker/Docker-Compose/wordpress",
     "Public/Docker/Docker-Compose/watchtower",
     "Public/Docker/Docker-Compose/vaultwarden",
@@ -202,7 +203,6 @@
     "Public/Docker/Docker-Compose/transmission",
     "Public/Docker/Docker-Compose/teleport/config",
     "Public/Docker/Docker-Compose/teleport",
-    "Public/Docker/Docker-Compose/ansible-semaphore",
-    "Public/Docker/Docker-Compose/scrutiny"
+    "Public/Docker/Docker-Compose/ansible-semaphore"
   ]
 }
