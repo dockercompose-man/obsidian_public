@@ -1,0 +1,16 @@
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: cloudflare-api-key-secret
+  namespace: cert-manager
+type: Opaque
+stringData:
+  # Configure your API Key or Credentials here...
+  # ---
+  # API Key:
+  # api-key: your-api-key
+  # - or -
+  # Token:
+  # api-token: your-api-token
+```

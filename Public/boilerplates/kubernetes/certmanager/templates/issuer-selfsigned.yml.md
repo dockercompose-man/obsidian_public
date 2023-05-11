@@ -1,0 +1,11 @@
+```yaml
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: selfsigned-issuer
+  # (Optional) Metadata
+  # ---
+  # namespace: your-namespace
+spec:
+  selfSigned: {}
+```
