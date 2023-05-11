@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/Kubernetes/K3S/K3S Install.md",
+                "file": "Public/boilerplates/ansible/add_public_keys.yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/Kubernetes/K3S/K3S Install.md",
+                "file": "Public/boilerplates/ansible/add_public_keys.yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/Kubernetes/K3S/K3S Install.md",
+                "file": "Public/boilerplates/ansible/add_public_keys.yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/Kubernetes/K3S/K3S Install.md"
+                "file": "Public/boilerplates/ansible/add_public_keys.yaml.md"
               }
             }
           },
@@ -166,10 +166,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "17bd212a8946ab2a",
+  "active": "b985c215425d45d4",
   "lastOpenFiles": [
-    "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
+    "Public/boilerplates/ansible/debian/Untitled.md",
+    "Public/boilerplates/ansible/add_public_keys.yaml.md",
+    "Public/boilerplates/ansible/centos",
+    "Public/boilerplates/ansible/debian/install-wireguard.yaml.md",
+    "Public/boilerplates/ansible/debian/install-micro-k8s.md",
+    "Public/boilerplates/ansible/debian/install-docker.yaml.md",
+    "Public/boilerplates/ansible/debian/deploy-traefik.yaml.md",
+    "Public/boilerplates/ansible/deploy-portainer.yaml.md",
+    "Public/boilerplates/Untitled.md",
+    "Public/boilerplates/ansible/debian",
+    "Public/boilerplates/ansible",
     "Public/Kubernetes/K3S/K3S Install.md",
+    "Public/boilerplates",
+    "Public/Ansible/Playbooks/cron-autoupdate.yml.md",
     "Public/Kubernetes/K3S",
     "Public/Ansible/Playbooks/upload-autoupdate.yml.md",
     "Public/Linux/Linux Must Know Commands.md",
@@ -187,22 +199,10 @@
     "Public/Docker/Docker-Compose/nextcloud/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/jenkins/README.md",
     "Public/Docker/Docker-Compose/homer/README.md",
-    "Public/Docker/Docker-Compose/guacamole/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/fail2ban/npm-docker.local.md",
-    "Public/Docker/Docker-Compose/fail2ban/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/coturn/turnserver.conf.md",
-    "Public/Docker/Docker-Compose/coturn/docker-compose.yml.md",
-    "Public/Docker/Docker-Compose/bind9/config/named.conf.md",
-    "Public/Docker/Watchtower.md",
-    "Public/Docker/Docker-Compose/bind9/docker-compose.yml.md",
     "Public/Docker/Docker-Compose/wordpress",
     "Public/Docker/Docker-Compose/watchtower",
     "Public/Docker/Docker-Compose/vaultwarden",
     "Public/Docker/Docker-Compose/vanilla-forums",
-    "Public/Docker/Docker-Compose/uptime-kuma",
-    "Public/Docker/Docker-Compose/transmission",
-    "Public/Docker/Docker-Compose/teleport/config",
-    "Public/Docker/Docker-Compose/teleport",
-    "Public/Docker/Docker-Compose/ansible-semaphore"
+    "Public/Docker/Docker-Compose/uptime-kuma"
   ]
 }
