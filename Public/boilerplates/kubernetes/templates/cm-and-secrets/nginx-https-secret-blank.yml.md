@@ -1,0 +1,13 @@
+```yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nginx-https-secret
+type: Opaque
+stringData:
+  server-cert.pem: |
+    -----BEGIN CERTIFICATE-----
+    ...
+    -----END CERTIFICATE-----
+  server-key.pem: |
+```

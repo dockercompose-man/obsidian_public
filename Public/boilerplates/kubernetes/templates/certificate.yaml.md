@@ -1,0 +1,14 @@
+```yaml
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: your-certificate
+  namespace: your-namespace
+spec:
+  secretName: your-secret
+  issuerRef:
+    name: ssl-issuer
+    kind: ClusterIssuer
+  dnsNames:
+    - your-hostname
+```
