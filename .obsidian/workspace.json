@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/boilerplates/kubernetes/traefik/values.yml.md",
+                "file": "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/boilerplates/kubernetes/traefik/values.yml.md",
+                "file": "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/boilerplates/kubernetes/traefik/values.yml.md",
+                "file": "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/boilerplates/kubernetes/traefik/values.yml.md"
+                "file": "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md"
               }
             }
           },
@@ -168,41 +168,41 @@
   },
   "active": "5df3c72bf3051888",
   "lastOpenFiles": [
-    "Public/boilerplates/kubernetes/traefik/README.md",
+    "Public/boilerplates/terraform/templates/cloud-deployment-example/main.tf.md",
+    "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
+    "Public/boilerplates/terraform/templates/kubernetes-automation-example",
+    "Public/boilerplates/terraform/templates/cloud-deployment-example/cloudflare.tf.md",
+    "Public/boilerplates/terraform/templates/cloud-deployment-example/civo.tf.md",
+    "Public/boilerplates/terraform/proxmox/provider.tf.md",
+    "Public/boilerplates/terraform/templates/cloud-deployment-example",
+    "Public/boilerplates/terraform/templates",
+    "Public/boilerplates/terraform/proxmox/full-clone.tf.md",
+    "Public/boilerplates/terraform/proxmox/credentials.auto.tfvars.md",
+    "Public/boilerplates/terraform/kubernetes/service.tf.md",
+    "Public/boilerplates/terraform/proxmox",
+    "Public/boilerplates/terraform/kubernetes/secret.tf.md",
+    "Public/boilerplates/terraform/kubernetes/provider.tf.md",
+    "Public/boilerplates/terraform/kubernetes/ingress.tf.md",
+    "Public/boilerplates/terraform/kubernetes/deployment.tf.md",
+    "Public/boilerplates/terraform/kubectl/provider.tf.md",
+    "Public/boilerplates/terraform/kubernetes",
+    "Public/boilerplates/terraform/kubectl/manifest.tf.md",
+    "Public/boilerplates/terraform/helm/traefik.tf.md",
+    "Public/boilerplates/terraform/kubectl",
+    "Public/boilerplates/terraform/helm/certmanager.tf.md",
+    "Public/boilerplates/terraform/cloudflare/provider.tf.md",
+    "Public/boilerplates/terraform/helm",
+    "Public/boilerplates/terraform/cloudflare/dns.tf.md",
+    "Public/boilerplates/terraform/cloudflare/credentials.tf.md",
     "Public/boilerplates/kubernetes/traefik/values.yml.md",
+    "Public/boilerplates/terraform/cloudflare",
+    "Public/boilerplates/terraform",
+    "Public/boilerplates/kubernetes/traefik/README.md",
     "Public/boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
     "Public/boilerplates/kubernetes/traefik/templates/ingress.yml.md",
     "Public/boilerplates/kubernetes/templates/service.yaml.md",
     "Public/boilerplates/kubernetes/traefik/templates",
-    "Public/boilerplates/kubernetes/traefik",
     "Public/boilerplates/kubernetes/templates/persistentvolumeclaim.yaml.md",
-    "Public/boilerplates/kubernetes/templates/namespace.yml.md",
-    "Public/boilerplates/kubernetes/templates/ingress.yaml.md",
-    "Public/boilerplates/kubernetes/templates/deployment.yaml.md",
-    "Public/boilerplates/kubernetes/templates/certificate.yaml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/nfs-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/nfs-pvc.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/nfs-pv.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/local-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/civo-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc/civo-pvc.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-https-svc.yml.md",
-    "Public/boilerplates/kubernetes/templates/pv-and-pvc",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-https-secret-blank.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-https-deploy.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-https-cm.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-http-svc.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-http-deploy.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/nginx-http-cm.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/mysql-secret.yml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/mysql-deploy.yml.md",
-    "Public/boilerplates/kubernetes/portainer/templates/portainer-ingress.yaml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets",
-    "Public/boilerplates/kubernetes/templates",
-    "Public/boilerplates/kubernetes/portainer/templates",
-    "Public/boilerplates/kubernetes/portainer",
-    "Public/boilerplates/kubernetes/nginx-http",
-    "Public/boilerplates/kubernetes/certmanager/templates",
-    "Public/boilerplates/kubernetes/certmanager"
+    "Public/boilerplates/kubernetes/templates/namespace.yml.md"
   ]
 }
