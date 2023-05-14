@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
+                "file": "Public/LDAP/LDIF.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
+                "file": "Public/LDAP/LDIF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
+                "file": "Public/LDAP/LDIF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md"
+                "file": "Public/LDAP/LDIF.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "5df3c72bf3051888",
   "lastOpenFiles": [
-    "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain/Vagrantfile.md",
     "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
+    "Public/LDAP/LDIF.md",
+    "Public/LDAP",
+    "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain/Vagrantfile.md",
     "Public/boilerplates/vagrant/kvm/ubuntu",
     "Public/boilerplates/vagrant/kvm",
     "Public/boilerplates/vagrant/hyperv/ubuntu/plain/Vagrantfile.md",
@@ -188,7 +190,6 @@
     "Public/boilerplates/vagrant/hyperv/ubuntu/docker",
     "Public/boilerplates/vagrant/hyperv/ubuntu",
     "Public/boilerplates/vagrant/hyperv",
-    "Public/boilerplates/vagrant",
     "Public/boilerplates/terraform/civo/server.tf.md",
     "Public/boilerplates/terraform/civo/query.tf.md",
     "Public/boilerplates/terraform/civo/provider.tf.md",
@@ -202,7 +203,6 @@
     "Public/boilerplates/terraform/templates/kubernetes-automation-example/civo.tf.md",
     "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
     "Public/boilerplates/terraform/templates/cloud-deployment-example/main.tf.md",
-    "Public/boilerplates/terraform/templates/cloud-deployment-example/cloudflare.tf.md",
-    "Public/boilerplates/terraform/templates/cloud-deployment-example/civo.tf.md"
+    "Public/boilerplates/terraform/templates/cloud-deployment-example/cloudflare.tf.md"
   ]
 }
