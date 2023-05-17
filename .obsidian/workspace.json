@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15823d1db73c3c7b",
+        "id": "bd6bd5e4a2ac64e9",
         "type": "tabs",
         "children": [
           {
-            "id": "88b8e19047f3b400",
+            "id": "c9d587d10ccbe519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/kubernetes/rancher/README.md",
+                "file": "Public/linux/must know commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/kubernetes/rancher/README.md",
+                "file": "Public/linux/must know commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/kubernetes/rancher/README.md",
+                "file": "Public/linux/must know commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/kubernetes/rancher/README.md"
+                "file": "Public/linux/must know commands.md"
               }
             }
           },
@@ -166,43 +166,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88b8e19047f3b400",
+  "active": "b985c215425d45d4",
   "lastOpenFiles": [
-    "Public/kubernetes/k8s/README.md",
-    "Public/kubernetes/k3s/README.md",
-    "Public/kubernetes/k3s/README.md",
-    "Public/kubernetes/k8s/basic kubectl commands.md",
-    "Public/docker/install docker/install watchtower.md",
-    "Public/docker/install docker/install docker rocky 8-9.md",
-    "Public/docker/install docker/install docker oracle 9.md",
-    "Public/docker/install docker/install docker on raspberry pi.md",
-    "Public/docker/install docker/install docker debian 11.md",
-    "Public/LDAP/LDIF.md",
-    "Public/boilerplates/kubernetes/templates/service.yaml.md",
-    "Public/boilerplates/kubernetes/templates/persistentvolumeclaim.yaml.md",
-    "Public/boilerplates/kubernetes/templates/namespace.yml.md",
-    "Public/boilerplates/kubernetes/templates/ingress.yaml.md",
-    "Public/boilerplates/kubernetes/templates/deployment.yaml.md",
-    "Public/boilerplates/kubernetes/templates/certificate.yaml.md",
-    "Public/boilerplates/kubernetes/templates/cm-and-secrets/README.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/README.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/nfs-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/nfs-pvc.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/nfs-pv.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/civo-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/civo-pvc.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
-    "Public/boilerplates/kubernetes/templates/configmaps",
-    "Public/boilerplates/kubernetes/nginx-https",
-    "Public/kubernetes/rancher/README.md",
-    "Public/kubernetes/rancher",
-    "Public/Ansible/Playbooks/yourdomain.md",
-    "Public/boilerplates/ansible/debian/playbooks/template",
-    "Public/boilerplates/ansible/debian/playbooks",
-    "Public/LDAP",
-    "Public/boilerplates/vagrant/kvm/ubuntu",
-    "Public/boilerplates/vagrant/kvm",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain"
+    "Public/linux/linux user management/user-management.md",
+    "Public/linux/linux user management/permissions.md",
+    "Public/linux/linux user management/group-management.md",
+    "Public/linux/linux user management/file-management.md",
+    "Public/linux/linux user management/disk-quotas.md",
+    "Public/linux/encryption/using encryption.md",
+    "Public/linux/encryption/ssh keys.md",
+    "Public/linux/encryption/gpg.md",
+    "Public/ldap/ldif.md",
+    "boilerplates/README.md",
+    "kubernetes/rancher/README.md",
+    "kubernetes/k8s/README.md",
+    "kubernetes/k3s/README.md",
+    "kubernetes/k3s/README.md",
+    "kubernetes/k8s/basic kubectl commands.md",
+    "docker/install docker/install watchtower.md",
+    "docker/install docker/install docker rocky 8-9.md",
+    "docker/install docker/install docker oracle 9.md",
+    "docker/install docker/install docker on raspberry pi.md",
+    "docker/install docker/install docker debian 11.md",
+    "boilerplates/kubernetes/templates/service.yaml.md",
+    "boilerplates/kubernetes/templates/persistentvolumeclaim.yaml.md",
+    "boilerplates/kubernetes/templates/namespace.yml.md",
+    "boilerplates/kubernetes/templates/ingress.yaml.md",
+    "boilerplates/kubernetes/templates/deployment.yaml.md",
+    "boilerplates/kubernetes/templates/certificate.yaml.md",
+    "boilerplates/kubernetes/templates/configmaps",
+    "boilerplates/kubernetes/nginx-https",
+    "kubernetes/rancher",
+    "boilerplates/ansible/debian/playbooks/template",
+    "boilerplates/ansible/debian/playbooks",
+    "Public/ldap",
+    "boilerplates/vagrant/kvm/ubuntu",
+    "boilerplates/vagrant/kvm",
+    "boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain",
+    "boilerplates/vagrant/hyperv/ubuntu/plain"
   ]
 }

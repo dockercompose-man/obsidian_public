@@ -1,11 +1,9 @@
 ### Rancher Install (Docker)
+https://phoenixnap.com/kb/install-rancher-on-ubuntu
 
 ```
 sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
 ```
-
-
-https://phoenixnap.com/kb/install-rancher-on-ubuntu
 
 ##### get the certificate from the cluster
 ```bash
