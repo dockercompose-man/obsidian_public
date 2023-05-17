@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/README.md",
+                "file": "essential education/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/README.md",
+                "file": "essential education/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/README.md",
+                "file": "essential education/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/README.md"
+                "file": "essential education/README.md"
               }
             }
           },
@@ -168,6 +168,8 @@
   },
   "active": "c9d587d10ccbe519",
   "lastOpenFiles": [
+    "boilerplates/README.md",
+    "essential education/README.md",
     "Public/Public Test.md",
     "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
     "essential education",
@@ -187,14 +189,12 @@
     "essential education/linux/encryption/ssh keys.md",
     "essential education/linux/encryption/gpg.md",
     "essential education/linux/ldap/ldif.md",
-    "boilerplates/README.md",
     "kubernetes/rancher/README.md",
     "kubernetes/k8s/README.md",
     "kubernetes/k3s/README.md",
     "kubernetes/k3s/README.md",
     "kubernetes/k8s/basic kubectl commands.md",
     "docker/install docker/install watchtower.md",
-    "docker/install docker/install docker rocky 8-9.md",
     "boilerplates/kubernetes/templates/configmaps",
     "boilerplates/kubernetes/nginx-https",
     "kubernetes/rancher",
