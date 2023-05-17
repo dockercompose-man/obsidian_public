@@ -8,7 +8,7 @@ This Repository **Boilerplates** is my personal template collection. Here you'll
 
 > ⚠️ Be aware, products can change over time. I do my best to keep up with the latest changes and releases, but please understand that this won’t always be the case.
 
-I created them as free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Website: [Orangefarm](https://discord.gg/nUFabsxxrW)
+I created them as free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Discord: [Orangefarm](https://discord.gg/nUFabsxxrW)
 
 ## Contribution
 
@@ -16,9 +16,8 @@ If you’d like to contribute to this project, reach out to me on social media o
 
 ## Other Resources
 
--   [Dotfiles](#) - My personal configuration files on Linux and Windows
--   [Boilerplates](#) - Templates for various projects like Docker, K8S, Ansible, etc
--   [Cheat-Sheets](#) - Command Reference for various tools and technologies
+-   [Boilerplates](https://github.com/dockercompose-man/obsidian_public/tree/main/boilerplates) - Templates for various projects like Docker, K8S, Ansible, etc
+-   [Cheat-Sheets](https://github.com/dockercompose-man/obsidian_public/tree/main/essential%20education) - Command Reference for various tools and technologies
 
 ## Support me
 
@@ -26,4 +25,4 @@ If you’d like to contribute to this project, reach out to me on social media o
 
 _**> > “You could sit at home, and do like absolutely nothing, and your name goes through like 17 computers a day. 1984? Yeah right, man. That’s a typo. Orwell is here now. He’s livin’ large. We have no names, man. No names. We are nameless.”**__
 > > 
-> > 					Emmanuel Goldstein (Hackers 1995)
+Emmanuel Goldstein (Hackers 1995)
