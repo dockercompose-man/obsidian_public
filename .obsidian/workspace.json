@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/LDAP/LDIF.md",
+                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/LDAP/LDIF.md",
+                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/LDAP/LDIF.md",
+                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/LDAP/LDIF.md"
+                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md"
               }
             }
           },
@@ -168,8 +168,26 @@
   },
   "active": "5df3c72bf3051888",
   "lastOpenFiles": [
-    "Public/Docker/Install Docker/Install Docker Debian 11.md",
+    "Public/boilerplates/kubernetes/templates/deployment.yaml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps",
+    "Public/boilerplates/kubernetes/nginx-https",
+    "Public/boilerplates/kubernetes/templates/ingress.yaml.md",
+    "Public/boilerplates/kubernetes/templates/namespace.yml.md",
+    "Public/Kubernetes/Rancher/Rancher Install (Docker).md",
+    "Public/Kubernetes/K3S/K3S Install.md",
+    "Public/Kubernetes/Rancher",
+    "Public/Ansible/Playbooks/yourdomain.md",
+    "Public/boilerplates/ansible/debian/playbooks/template/default-inventory.md",
+    "Public/boilerplates/ansible/debian/playbooks/template/ansible.cfg.md",
+    "Public/Ansible/Playbooks/Untitled.md",
+    "Public/boilerplates/ansible/debian/playbooks/static-ip.yml.md",
+    "Public/boilerplates/ansible/debian/playbooks/template",
+    "Public/boilerplates/ansible/debian/playbooks",
+    "Public/boilerplates/ansible/debian/playbooks/cron-autoupdate.yml.md",
+    "Public/boilerplates/ansible/debian/playbooks/nfs-samba-tools.yml.md",
     "Public/LDAP/LDIF.md",
+    "Public/Docker/Install Docker/Install Docker Debian 11.md",
     "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
     "Public/LDAP",
     "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain/Vagrantfile.md",
@@ -185,24 +203,6 @@
     "Public/boilerplates/vagrant/hyperv/ubuntu/docker/playbook.yaml.md",
     "Public/boilerplates/terraform/civo/ssh_key.tf.md",
     "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain-with-cockpit",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/microk8s-installed",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/docker",
-    "Public/boilerplates/vagrant/hyperv/ubuntu",
-    "Public/boilerplates/vagrant/hyperv",
-    "Public/boilerplates/terraform/civo/server.tf.md",
-    "Public/boilerplates/terraform/civo/query.tf.md",
-    "Public/boilerplates/terraform/civo/provider.tf.md",
-    "Public/boilerplates/terraform/civo/kubernetes.tf.md",
-    "Public/boilerplates/terraform/civo/credentials.tf.md",
-    "Public/boilerplates/terraform/templates/simple-docker-example/main.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/traefik.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/provider.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/nginx1.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/cloudflare.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/civo.tf.md",
-    "Public/boilerplates/terraform/templates/kubernetes-automation-example/certmanager.tf.md",
-    "Public/boilerplates/terraform/templates/cloud-deployment-example/main.tf.md"
+    "Public/boilerplates/vagrant/hyperv/ubuntu/plain"
   ]
 }
