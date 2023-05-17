@@ -11,8 +11,12 @@
             "id": "c9d587d10ccbe519",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "boilerplates/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "boilerplates/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "boilerplates/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "boilerplates/README.md"
+              }
             }
           },
           {
@@ -158,7 +166,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "30650b8e73de2247",
+  "active": "c9d587d10ccbe519",
   "lastOpenFiles": [
     "Public/Public Test.md",
     "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
