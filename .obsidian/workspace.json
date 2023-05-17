@@ -11,12 +11,8 @@
             "id": "c9d587d10ccbe519",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Public/linux/must know commands.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/linux/must know commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/linux/must know commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Public/linux/must know commands.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,17 +158,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b985c215425d45d4",
+  "active": "30650b8e73de2247",
   "lastOpenFiles": [
-    "Public/linux/linux user management/user-management.md",
-    "Public/linux/linux user management/permissions.md",
-    "Public/linux/linux user management/group-management.md",
-    "Public/linux/linux user management/file-management.md",
-    "Public/linux/linux user management/disk-quotas.md",
-    "Public/linux/encryption/using encryption.md",
-    "Public/linux/encryption/ssh keys.md",
-    "Public/linux/encryption/gpg.md",
-    "Public/ldap/ldif.md",
+    "Public/Public Test.md",
+    "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
+    "essential education",
+    "scripts/python/debian-security-only.py.md",
+    "scripts/python/rocky-security-only-yum.py.md",
+    "scripts/python/rocky-security-only.py.md",
+    "scripts/bash/rocky-security-only.sh.md",
+    "scripts/bash/debian-security-only.sh.md",
+    "docker/portainer/README.md",
+    "essential education/linux/must know commands.md",
+    "essential education/linux/linux user management/user-management.md",
+    "essential education/linux/linux user management/permissions.md",
+    "essential education/linux/linux user management/group-management.md",
+    "essential education/linux/linux user management/file-management.md",
+    "essential education/linux/linux user management/disk-quotas.md",
+    "essential education/linux/encryption/using encryption.md",
+    "essential education/linux/encryption/ssh keys.md",
+    "essential education/linux/encryption/gpg.md",
+    "essential education/linux/ldap/ldif.md",
     "boilerplates/README.md",
     "kubernetes/rancher/README.md",
     "kubernetes/k8s/README.md",
@@ -185,24 +187,14 @@
     "kubernetes/k8s/basic kubectl commands.md",
     "docker/install docker/install watchtower.md",
     "docker/install docker/install docker rocky 8-9.md",
-    "docker/install docker/install docker oracle 9.md",
-    "docker/install docker/install docker on raspberry pi.md",
-    "docker/install docker/install docker debian 11.md",
-    "boilerplates/kubernetes/templates/service.yaml.md",
-    "boilerplates/kubernetes/templates/persistentvolumeclaim.yaml.md",
-    "boilerplates/kubernetes/templates/namespace.yml.md",
-    "boilerplates/kubernetes/templates/ingress.yaml.md",
-    "boilerplates/kubernetes/templates/deployment.yaml.md",
-    "boilerplates/kubernetes/templates/certificate.yaml.md",
     "boilerplates/kubernetes/templates/configmaps",
     "boilerplates/kubernetes/nginx-https",
     "kubernetes/rancher",
     "boilerplates/ansible/debian/playbooks/template",
     "boilerplates/ansible/debian/playbooks",
-    "Public/ldap",
+    "essential education/linux/ldap",
     "boilerplates/vagrant/kvm/ubuntu",
     "boilerplates/vagrant/kvm",
-    "boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain",
-    "boilerplates/vagrant/hyperv/ubuntu/plain"
+    "boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain"
   ]
 }
