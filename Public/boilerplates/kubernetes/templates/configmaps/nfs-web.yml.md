@@ -2,28 +2,28 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: local-web
+  name: nfs-web
 spec:
   replicas: 1
   selector:
     matchLabels: 
-      app: local-web
+      app: nfs-web
   template:
     metadata:
       labels:
-        app: local-web
+        app: nfs-web
     spec:
       containers:
-      - name: local-web
+      - name: nfs-web
         image: nginx
         ports:
           - name: web
             containerPort: 80
         volumeMounts:
-          - name: local
+          - name: nfs
             mountPath: /usr/share/nginx/html
       volumes:
-      - name: local
-        hostPath:
-          path: /var/nginxserver
+      - name: nfs
+        persistentVolumeClaim:
+          claimName: nfs
 ```

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fe21a31100acf519",
+        "id": "15823d1db73c3c7b",
         "type": "tabs",
         "children": [
           {
-            "id": "5df3c72bf3051888",
+            "id": "88b8e19047f3b400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
+                "file": "Public/kubernetes/rancher/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
+                "file": "Public/kubernetes/rancher/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
+                "file": "Public/kubernetes/rancher/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md"
+                "file": "Public/kubernetes/rancher/README.md"
               }
             }
           },
@@ -166,42 +166,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5df3c72bf3051888",
+  "active": "88b8e19047f3b400",
   "lastOpenFiles": [
+    "Public/kubernetes/k8s/README.md",
+    "Public/kubernetes/k3s/README.md",
+    "Public/kubernetes/k3s/README.md",
+    "Public/kubernetes/k8s/basic kubectl commands.md",
+    "Public/docker/install docker/install watchtower.md",
+    "Public/docker/install docker/install docker rocky 8-9.md",
+    "Public/docker/install docker/install docker oracle 9.md",
+    "Public/docker/install docker/install docker on raspberry pi.md",
+    "Public/docker/install docker/install docker debian 11.md",
+    "Public/LDAP/LDIF.md",
+    "Public/boilerplates/kubernetes/templates/service.yaml.md",
+    "Public/boilerplates/kubernetes/templates/persistentvolumeclaim.yaml.md",
+    "Public/boilerplates/kubernetes/templates/namespace.yml.md",
+    "Public/boilerplates/kubernetes/templates/ingress.yaml.md",
     "Public/boilerplates/kubernetes/templates/deployment.yaml.md",
+    "Public/boilerplates/kubernetes/templates/certificate.yaml.md",
+    "Public/boilerplates/kubernetes/templates/cm-and-secrets/README.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/README.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/nfs-web.yml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/nfs-pvc.yml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/nfs-pv.yml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/civo-web.yml.md",
+    "Public/boilerplates/kubernetes/templates/configmaps/civo-pvc.yml.md",
     "Public/boilerplates/kubernetes/templates/configmaps/local-web.yml.md",
     "Public/boilerplates/kubernetes/templates/configmaps",
     "Public/boilerplates/kubernetes/nginx-https",
-    "Public/boilerplates/kubernetes/templates/ingress.yaml.md",
-    "Public/boilerplates/kubernetes/templates/namespace.yml.md",
-    "Public/Kubernetes/Rancher/Rancher Install (Docker).md",
-    "Public/Kubernetes/K3S/K3S Install.md",
-    "Public/Kubernetes/Rancher",
+    "Public/kubernetes/rancher/README.md",
+    "Public/kubernetes/rancher",
     "Public/Ansible/Playbooks/yourdomain.md",
-    "Public/boilerplates/ansible/debian/playbooks/template/default-inventory.md",
-    "Public/boilerplates/ansible/debian/playbooks/template/ansible.cfg.md",
-    "Public/Ansible/Playbooks/Untitled.md",
-    "Public/boilerplates/ansible/debian/playbooks/static-ip.yml.md",
     "Public/boilerplates/ansible/debian/playbooks/template",
     "Public/boilerplates/ansible/debian/playbooks",
-    "Public/boilerplates/ansible/debian/playbooks/cron-autoupdate.yml.md",
-    "Public/boilerplates/ansible/debian/playbooks/nfs-samba-tools.yml.md",
-    "Public/LDAP/LDIF.md",
-    "Public/Docker/Install Docker/Install Docker Debian 11.md",
-    "Public/boilerplates/vagrant/kvm/ubuntu/Vagrantfile.md",
     "Public/LDAP",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain/Vagrantfile.md",
     "Public/boilerplates/vagrant/kvm/ubuntu",
     "Public/boilerplates/vagrant/kvm",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain/Vagrantfile.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain-with-cockpit/playbook.yaml.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/plain-with-cockpit/Vagrantfile.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/microk8s-installed/playbook.yaml.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/microk8s-installed/Vagrantfile.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/docker/Untitled.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/docker/Vagrantfile.md",
-    "Public/boilerplates/vagrant/hyperv/ubuntu/docker/playbook.yaml.md",
-    "Public/boilerplates/terraform/civo/ssh_key.tf.md",
     "Public/boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain",
     "Public/boilerplates/vagrant/hyperv/ubuntu/plain"
   ]

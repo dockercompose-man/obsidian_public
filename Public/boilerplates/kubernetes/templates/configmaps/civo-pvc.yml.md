@@ -1,0 +1,13 @@
+```yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: civo
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: civo-volume
+  resources:
+    requests:
+      storage: 1Gi
+```

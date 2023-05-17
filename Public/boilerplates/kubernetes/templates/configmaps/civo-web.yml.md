@@ -2,28 +2,29 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: local-web
+  name: civo-web
 spec:
   replicas: 1
   selector:
     matchLabels: 
-      app: local-web
+      app: civo-web
   template:
     metadata:
       labels:
-        app: local-web
+        app: civo-web
     spec:
       containers:
-      - name: local-web
+      - name: civo-web
         image: nginx
         ports:
           - name: web
             containerPort: 80
         volumeMounts:
-          - name: local
+          - name: civo
             mountPath: /usr/share/nginx/html
       volumes:
-      - name: local
-        hostPath:
-          path: /var/nginxserver
+      - name: civo
+        persistentVolumeClaim:
+          claimName: civo
+        
 ```
