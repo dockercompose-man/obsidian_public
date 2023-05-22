@@ -1,24 +1,27 @@
 ```yaml
-apiVersion: networking.k8s.io/v1
-kind: Ingress
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
 metadata:
-  name: minecraft-server # Name of the ingress object
-  namespace: default # Name of the namespace
+  name: minecraft-server
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: traefik-external
 spec:
-  rules:
-  - host: "mc.yourdomain.com"  # Your hostname
-    http:
-      paths:
-      # Path-based routing settings:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: minecraft-server  # The name of the service
-            port:
-              number: 25565  # Service Portnumber
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`www.your.domain.com`)
+      kind: Rule
+      services:
+        - name: minecraft-server
+          port: 25565
+    - match: Host(`music.yourdomain.com`)
+      kind: Rule
+      services:
+        - name: minecraft-server
+          port: 25565
+      middlewares:
+        - name: default-headers
   tls:
-    - hosts:
-        - mc.yourdomain.com
-      secretName: yourdomain-com-staging-tls
+    secretName: yourdomain-com-staging-tls
 ```

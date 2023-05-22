@@ -6,7 +6,7 @@ metadata:
   namespace: default # Name of the namespace
 spec:
   rules:
-  - host: "jelly.orangefarm.ca"  # Your hostname
+  - host: "jelly.yourdomain.com"  # Your hostname
     http:
       paths:
       # Path-based routing settings:
@@ -18,7 +18,7 @@ spec:
             port:
               number: 8096  # Service Portnumber
   tls:
-  - hosts:
-    - jelly.yourdomain.com
-    secretName: yourdomain-com-staging-tls
+    - hosts:
+        - jelly.yourdomain.com
+      secretName: yourdomain-com-staging-tls
 ```

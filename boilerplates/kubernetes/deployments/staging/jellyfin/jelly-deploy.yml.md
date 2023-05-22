@@ -26,7 +26,7 @@ spec:
             memory: 2048Mi
             cpu: "1"
           requests:
-            memory: 2048Mi
+            memory: 1024Mi
             cpu: "1"
         ports:
         # Ports are the ports that your application uses.
