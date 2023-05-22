@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bd6bd5e4a2ac64e9",
+        "id": "9dfc8204f7cbf3b5",
         "type": "tabs",
         "children": [
           {
-            "id": "c9d587d10ccbe519",
+            "id": "80c6344bd4750384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "essential education/README.md",
+                "file": "boilerplates/kubernetes/deployments/minecraft-server/minecraft-deploy.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essential education/README.md",
+                "file": "boilerplates/kubernetes/deployments/minecraft-server/minecraft-deploy.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "essential education/README.md",
+                "file": "boilerplates/kubernetes/deployments/minecraft-server/minecraft-deploy.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "essential education/README.md"
+                "file": "boilerplates/kubernetes/deployments/minecraft-server/minecraft-deploy.yml.md"
               }
             }
           },
@@ -166,10 +166,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c9d587d10ccbe519",
+  "active": "80c6344bd4750384",
   "lastOpenFiles": [
-    "boilerplates/README.md",
+    "boilerplates/kubernetes/deployments/minecraft-server/minecraft-svc.yaml.md",
+    "boilerplates/kubernetes/deployments/jellyfin/jelly-svc.yml.md",
+    "boilerplates/kubernetes/deployments/jellyfin/jelly-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/jellyfin/jelly-deploy.yml.md",
+    "boilerplates/kubernetes/deployments/minecraft-server/minecraft-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/minecraft-server/minecraft-rcon-secret.yml.md",
+    "boilerplates/kubernetes/deployments/jellyfin",
+    "boilerplates/kubernetes/deployments/minecraft-server/minecraft-db-secret.yml.md",
+    "boilerplates/kubernetes/deployments/minecraft-server/minecraft-deploy.yml.md",
     "essential education/README.md",
+    "boilerplates/kubernetes/deployments/minecraft-server",
+    "boilerplates/kubernetes/deployments",
+    "boilerplates/README.md",
     "Public/Public Test.md",
     "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
     "essential education",
@@ -187,22 +198,11 @@
     "essential education/linux/linux user management/disk-quotas.md",
     "essential education/linux/encryption/using encryption.md",
     "essential education/linux/encryption/ssh keys.md",
-    "essential education/linux/encryption/gpg.md",
-    "essential education/linux/ldap/ldif.md",
-    "kubernetes/rancher/README.md",
-    "kubernetes/k8s/README.md",
-    "kubernetes/k3s/README.md",
-    "kubernetes/k3s/README.md",
-    "kubernetes/k8s/basic kubectl commands.md",
-    "docker/install docker/install watchtower.md",
     "boilerplates/kubernetes/templates/configmaps",
     "boilerplates/kubernetes/nginx-https",
     "kubernetes/rancher",
     "boilerplates/ansible/debian/playbooks/template",
     "boilerplates/ansible/debian/playbooks",
-    "essential education/linux/ldap",
-    "boilerplates/vagrant/kvm/ubuntu",
-    "boilerplates/vagrant/kvm",
-    "boilerplates/vagrant/hyperv/ubuntu/ubuntu-cluster-plain"
+    "essential education/linux/ldap"
   ]
 }
