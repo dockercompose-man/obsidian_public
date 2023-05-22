@@ -8,10 +8,10 @@ metadata:
 spec:
   type: ClusterIP
   ports:
-  - port: 8096
-    targetPort: 8096
+  - port: 25565
+    targetPort: 25565
     protocol: TCP
     name: http
   selector:
-    app: jellyfin
+    app: minecraft-server
 ```
