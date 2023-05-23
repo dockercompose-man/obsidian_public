@@ -1,27 +1,24 @@
 ```yaml
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
-  name: navidrome
-  namespace: default
-  annotations:
-    kubernetes.io/ingress.class: traefik-external
+  name: navidrome # Name of the ingress object
+  namespace: default # Name of the namespace
 spec:
-  entryPoints:
-    - websecure
-  routes:
-    - match: Host(`www.your.domain.com`)
-      kind: Rule
-      services:
-        - name: navidrome
-          port: 4533
-    - match: Host(`music.yourdomain.com`)
-      kind: Rule
-      services:
-        - name: navidrome
-          port: 4533
-      middlewares:
-        - name: default-headers
+  rules:
+  - host: "music.yourdomain.com"  # Your hostname
+    http:
+      paths:
+      # Path-based routing settings:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: navidrome  # The name of the service
+            port:
+              number: 4533 # Service Portnumber
   tls:
-    secretName: yourdomain-com-staging-tls
+    - hosts:
+        - music.domain.com
+      secretName: domain-com-staging-tls
 ```
