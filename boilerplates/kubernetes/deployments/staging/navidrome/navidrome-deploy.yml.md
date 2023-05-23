@@ -21,28 +21,28 @@ spec:
       # to run.
       - name: navidrome # Name of the container
         image: deluan/navidrome # The image you want to run
-        # resources:
-        #   limits:
-        #     memory: 512Mi
-        #     cpu: "1"
-        #   requests:
-        #     memory: 256Mi
-        #     cpu: "0.2"
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: "1"
+          requests:
+            memory: 256Mi
+            cpu: "0.5"
         ports:
         # Ports are the ports that your application uses.
         - containerPort: 4533 # The port that your application uses
         volumeMounts:
         # VolumeMounts are the volumes that your application uses.
         - mountPath: /data # The path that your application uses
-          name: nfs-k3s-data # Name of the volume
+          name: nfs-k3s-navidata # Name of the volume
         # VolumeMounts are the volumes that your application uses.
         - mountPath: /music # The path that your application uses
           name: nfs-k3s-movies2 # Name of the volume
       volumes:
       # Volumes are the persistent storage that your application uses.
-      - name: nfs-k3s-data # Name of the volume
+      - name: nfs-k3s-navidata # Name of the volume
         persistentVolumeClaim:
-          claimName: nfs-k3s-data # Name of the persistent volume claim
+          claimName: nfs-k3s-navidata # Name of the persistent volume claim
       # Volumes are the persistent storage that your application uses.
       - name: nfs-k3s-movies2 # Name of the volume
         persistentVolumeClaim:

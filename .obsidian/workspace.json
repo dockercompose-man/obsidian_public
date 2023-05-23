@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md"
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md"
               }
             }
           },
@@ -168,19 +168,24 @@
   },
   "active": "a75246322be8265e",
   "lastOpenFiles": [
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-deploy.yml.md",
-    "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-secret.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-deploy.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server",
+    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-deploy.yml.md",
+    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
+    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
+    "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/helm-values.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome",
     "boilerplates/kubernetes/deployments/staging",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-rcon-secret.yml.md",
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-db-secret.yml.md",
     "essential education/README.md",
@@ -196,13 +201,8 @@
     "scripts/bash/rocky-security-only.sh.md",
     "scripts/bash/debian-security-only.sh.md",
     "docker/portainer/README.md",
-    "essential education/linux/must know commands.md",
-    "essential education/linux/linux user management/user-management.md",
-    "essential education/linux/linux user management/permissions.md",
-    "essential education/linux/linux user management/group-management.md",
     "boilerplates/kubernetes/templates/configmaps",
     "boilerplates/kubernetes/nginx-https",
-    "kubernetes/rancher",
-    "boilerplates/ansible/debian/playbooks/template"
+    "kubernetes/rancher"
   ]
 }
