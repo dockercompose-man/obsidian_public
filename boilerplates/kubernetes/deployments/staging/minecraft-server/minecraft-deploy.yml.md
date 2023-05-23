@@ -62,9 +62,11 @@ spec:
             secretKeyRef:
               name: minecraft-rcon-secret
               key: privateKey
+        volumeMounts:
+        - mountPath: /mc # The path that your application uses
+          name: nfs-k3s-mcdata # Name of the volume
       volumes:
-      - name: nfs-k3s-data
+      - name: nfs-k3s-mcdata
         persistentVolumeClaim:
-          claimName: nfs-k3s-data
+          claimName: nfs-k3s-mcdata
 ```
-
