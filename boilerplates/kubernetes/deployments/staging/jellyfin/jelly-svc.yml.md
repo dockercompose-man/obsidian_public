@@ -6,7 +6,7 @@ metadata:
   labels:
     app: jellyfin
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
   - port: 8096
     targetPort: 8096
