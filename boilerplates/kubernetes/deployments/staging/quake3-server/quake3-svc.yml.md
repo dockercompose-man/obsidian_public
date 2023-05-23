@@ -10,7 +10,7 @@ spec:
   ports:
   - port: 27960
     targetPort: 27960
-    protocol: TCP
+    protocol: UDP
     name: http
   selector:
     app: quake3-server
