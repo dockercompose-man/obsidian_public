@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37d422495b38854a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +177,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a75246322be8265e",
+  "active": "37d422495b38854a",
   "lastOpenFiles": [
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
