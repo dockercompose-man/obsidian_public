@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md"
+                "file": "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md"
               }
             }
           },
@@ -168,16 +168,17 @@
   },
   "active": "a75246322be8265e",
   "lastOpenFiles": [
-    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
+    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-deploy.yml.md",
@@ -201,7 +202,6 @@
     "scripts/python/rocky-security-only-yum.py.md",
     "scripts/python/rocky-security-only.py.md",
     "scripts/bash/rocky-security-only.sh.md",
-    "scripts/bash/debian-security-only.sh.md",
     "boilerplates/kubernetes/templates/configmaps",
     "boilerplates/kubernetes/nginx-https"
   ]
