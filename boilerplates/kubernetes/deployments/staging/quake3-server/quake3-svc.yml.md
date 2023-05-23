@@ -6,7 +6,7 @@ metadata:
   labels:
     app: quake3-server
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
   - port: 27960
     targetPort: 27960
