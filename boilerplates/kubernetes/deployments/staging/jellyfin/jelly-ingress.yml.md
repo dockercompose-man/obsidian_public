@@ -1,27 +1,37 @@
 ```yaml
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
   name: jellyfin
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: traefik-external
+    # (Optional): Annotations for the Ingress Controller
+    # -- ingress class is needed when traefik is not the default
+    # kubernetes.io/ingress.class: traefik
+    # ---
+    # -- entrypoint and tls configurations
+    # traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
+    # traefik.ingress.kubernetes.io/router.tls: "true"
+    # ---
+    # -- optional middlewares
+    # traefik.ingress.kubernetes.io/router.middlewares:your-middleware@kubernetescrd
+    # ---
 spec:
-  entryPoints:
-    - websecure
-  routes:
-    - match: Host(`www.jelly.domain.com`)
-      kind: Rule
-      services:
-        - name: jellyfin
-          port: 8096
-    - match: Host(`jelly.domain.com`)
-      kind: Rule
-      services:
-        - name: jellyfin
-          port: 8096
-      middlewares:
-        - name: default-headers
-  tls:
-    secretName: domain-com-staging-tls
+  rules:
+  - host: "jelly.yourdomain.com"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: jellyfin
+            port:
+              number: 8096
+  # (Optional) TLS settings
+  # tls:
+  # - hosts:
+  #   - your-hostname.com  # Your hostname
+  #   secretName: your-secret  # Your TLS Secret
+  # ---
 ```

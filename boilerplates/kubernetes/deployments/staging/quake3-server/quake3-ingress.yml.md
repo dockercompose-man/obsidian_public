@@ -1,27 +1,38 @@
 ```yaml
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
   name: quake3-server
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: traefik-external
+    # (Optional): Annotations for the Ingress Controller
+    # -- ingress class is needed when traefik is not the default
+    # kubernetes.io/ingress.class: traefik
+    # ---
+    # -- entrypoint and tls configurations
+    # traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
+    # traefik.ingress.kubernetes.io/router.tls: "true"
+    # ---
+    # -- optional middlewares
+    # traefik.ingress.kubernetes.io/router.middlewares:your-middleware@kubernetescrd
+    # ---
 spec:
-  entryPoints:
-    - websecure
-  routes:
-    - match: Host(`www.quake3.domain.com`)
-      kind: Rule
-      services:
-        - name: quake3-server
-          port: 27960
-    - match: Host(`quake3.domain.com`)
-      kind: Rule
-      services:
-        - name: quake3-server
-          port: 27960
-      middlewares:
-        - name: default-headers
-  tls:
-    secretName: domain-com-staging-tls
+  rules:
+  - host: "quake3.yourdomain.com"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: quake3-server
+            port:
+              number: 27960
+              protocol: UDP
+  # (Optional) TLS settings
+  # tls:
+  # - hosts:
+  #   - your-hostname.com  # Your hostname
+  #   secretName: your-secret  # Your TLS Secret
+  # ---
 ```

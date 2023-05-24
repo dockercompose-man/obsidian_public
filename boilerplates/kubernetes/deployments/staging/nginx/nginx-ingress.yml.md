@@ -1,27 +1,37 @@
 ```yaml
-apiVersion: traefik.containo.us/v1alpha1
-kind: IngressRoute
+apiVersion: networking.k8s.io/v1
+kind: Ingress
 metadata:
   name: nginx
   namespace: default
   annotations:
-    kubernetes.io/ingress.class: traefik-external
+    # (Optional): Annotations for the Ingress Controller
+    # -- ingress class is needed when traefik is not the default
+    # kubernetes.io/ingress.class: traefik
+    # ---
+    # -- entrypoint and tls configurations
+    # traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
+    # traefik.ingress.kubernetes.io/router.tls: "true"
+    # ---
+    # -- optional middlewares
+    # traefik.ingress.kubernetes.io/router.middlewares:your-middleware@kubernetescrd
+    # ---
 spec:
-  entryPoints:
-    - websecure
-  routes:
-    - match: Host(`www.new.domain.com`)
-      kind: Rule
-      services:
-        - name: nginx
-          port: 80
-    - match: Host(`new.domain.com`)
-      kind: Rule
-      services:
-        - name: nginx
-          port: 80
-      middlewares:
-        - name: default-headers
-  tls:
-    secretName: domain-com-staging-tls
+  rules:
+  - host: "nginx.yourdomain.com"
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nginx
+            port:
+              number: 80
+  # (Optional) TLS settings
+  # tls:
+  # - hosts:
+  #   - your-hostname.com  # Your hostname
+  #   secretName: your-secret  # Your TLS Secret
+  # ---
 ```
