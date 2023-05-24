@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md"
+                "file": "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md"
               }
             }
           },
@@ -169,11 +169,11 @@
   "active": "9e176d20e7a4a36e",
   "lastOpenFiles": [
     "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
+    "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
+    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-svc.yml.md",
