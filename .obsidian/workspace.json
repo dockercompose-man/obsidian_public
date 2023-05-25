@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
+                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
+                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
+                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md"
+                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md"
               }
             }
           },
@@ -168,8 +168,11 @@
   },
   "active": "9e176d20e7a4a36e",
   "lastOpenFiles": [
-    "boilerplates/kubernetes/traefik/templates/ingress.yml.md",
+    "boilerplates/ansible/debian/playbooks/k3s/remove_fstab.yml.md",
+    "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
     "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
+    "boilerplates/ansible/debian/playbooks/k3s",
+    "boilerplates/kubernetes/traefik/templates/ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx/nginx-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
@@ -200,9 +203,6 @@
     "Public/Public Test.md",
     "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
     "essential education",
-    "scripts/python/debian-security-only.py.md",
-    "scripts/python/rocky-security-only-yum.py.md",
-    "boilerplates/kubernetes/templates/configmaps",
-    "boilerplates/kubernetes/nginx-https"
+    "boilerplates/kubernetes/templates/configmaps"
   ]
 }
