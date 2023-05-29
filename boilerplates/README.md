@@ -1,28 +1,70 @@
-# Michael's "Boilerplates"
+## Install Terraform
+HashiCorp officially maintains and signs packages for the following Linux distributions.
 
-Hi, there! 👋
+Ensure that your system is up to date and you have installed the `gnupg`, `software-properties-common`, and `curl` packages installed. You will use these packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
 
-I’m Michael, a 37-year-old tech enthusiast from Canada, and I love to inspire and educate people in IT.
+```bash
+sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+```
 
-This Repository **Boilerplates** is my personal template collection. Here you'll find templates, and configurations for various tools, and technologies.
+Install the HashiCorp [GPG key](https://apt.releases.hashicorp.com/gpg "HashiCorp GPG key").
 
-> ⚠️ Be aware, products can change over time. I do my best to keep up with the latest changes and releases, but please understand that this won’t always be the case.
+```bash
+wget -O- https://apt.releases.hashicorp.com/gpg | \
+gpg --dearmor | \
+sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+```
 
-I created them as free resources to be used in your specific use cases. If you're searching for detailed, in-depth tutorials on some tools or technologies, check out my Discord: [Orangefarm](https://discord.gg/nUFabsxxrW)
+Verify the key's fingerprint.
 
-## Contribution
+```bash
+gpg --no-default-keyring \
+--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
+--fingerprint
+```
 
-If you’d like to contribute to this project, reach out to me on social media or [Discord](https://discord.gg/nUFabsxxrW), or create a pull request for the necessary changes.
+The `gpg` command will report the key fingerprint:
 
-## Other Resources
+```plaintext
+/usr/share/keyrings/hashicorp-archive-keyring.gpg
+-------------------------------------------------
+pub   rsa4096 XXXX-XX-XX [SC]
+AAAA AAAA AAAA AAAA
+uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>
+sub   rsa4096 XXXX-XX-XX [E]
+```
 
--   [Boilerplates](https://github.com/dockercompose-man/obsidian_public/tree/main/boilerplates) - Templates for various projects like Docker, K8S, Ansible, etc
--   [Cheat-Sheets](https://github.com/dockercompose-man/obsidian_public/tree/main/essential%20education) - Command Reference for various tools and technologies
+Add the official HashiCorp repository to your system. The `lsb_release -cs` command finds the distribution release codename for your current system, such as `buster`, `groovy`, or `sid`.
 
-## Support me
+```bash
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+sudo tee /etc/apt/sources.list.d/hashicorp.list
+```
 
-[Making a Donation](https://home.orangefarm.ca/donate/) will support my mission to create free, high-quality content for tech enthusiasts and IT professionals.
+Download the package information from HashiCorp.
 
-_**> > “You could sit at home, and do like absolutely nothing, and your name goes through like 17 computers a day. 1984? Yeah right, man. That’s a typo. Orwell is here now. He’s livin’ large. We have no names, man. No names. We are nameless.”**__
-> > 
-Emmanuel Goldstein (Hackers 1995)
+```bash
+sudo apt update
+```
+
+Install Terraform from the new repository.
+
+```bash
+sudo apt-get install terraform
+```
+
+## [](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#verify-the-installation)
+
+## Verify the installation
+Verify that the installation worked by opening a new terminal session and listing Terraform's available subcommands.
+
+```bash
+terraform -help
+```
+
+Add any subcommand to `terraform -help` to learn more about what it does and available options.
+
+```bash
+terraform -help plan
+```

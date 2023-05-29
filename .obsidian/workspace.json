@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0fa4816a23ac39ba",
+        "id": "1b84936e7220c331",
         "type": "tabs",
         "children": [
           {
-            "id": "9e176d20e7a4a36e",
+            "id": "814a09fe7fd9761a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
+                "file": "boilerplates/terraform/aws/main.tf.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
+                "file": "boilerplates/terraform/aws/main.tf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
+                "file": "boilerplates/terraform/aws/main.tf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md"
+                "file": "boilerplates/terraform/aws/main.tf.md"
               }
             }
           },
@@ -166,10 +166,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9e176d20e7a4a36e",
+  "active": "814a09fe7fd9761a",
   "lastOpenFiles": [
-    "boilerplates/ansible/debian/playbooks/k3s/remove_fstab.yml.md",
+    "boilerplates/terraform/aws/variables.tf.md",
+    "boilerplates/terraform/aws/terraform.tfvars.md",
+    "boilerplates/terraform/aws/outputs.tf.md",
+    "boilerplates/terraform/aws/main.tf.md",
+    "boilerplates/README.md",
+    "boilerplates/terraform/helm/certmanager.tf.md",
+    "boilerplates/terraform/helm/traefik.tf.md",
+    "boilerplates/terraform/civo/kubernetes.tf.md",
+    "boilerplates/terraform/aws",
+    "boilerplates/terraform/civo/provider.tf.md",
+    "boilerplates/terraform/civo/ssh_key.tf.md",
     "boilerplates/ansible/debian/playbooks/k3s/configure_fstab.yml.md",
+    "boilerplates/ansible/debian/playbooks/k3s/remove_fstab.yml.md",
     "boilerplates/kubernetes/traefik/templates/ingressroutetcp.yml.md",
     "boilerplates/ansible/debian/playbooks/k3s",
     "boilerplates/kubernetes/traefik/templates/ingress.yml.md",
@@ -186,23 +197,12 @@
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-deploy.yml.md",
-    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-deploy.yml.md",
-    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-secret.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server",
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-deploy.yml.md",
-    "boilerplates/kubernetes/deployments/staging/navidrome/helm-values.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome",
     "boilerplates/kubernetes/deployments/staging",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-rcon-secret.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-db-secret.yml.md",
-    "essential education/README.md",
     "boilerplates/kubernetes/deployments/staging/minecraft-server",
     "boilerplates/kubernetes/deployments",
-    "boilerplates/README.md",
-    "Public/Public Test.md",
-    "essential education/windows/windows user management/active directory/powershell/file-management.ps1.md",
-    "essential education",
-    "boilerplates/kubernetes/templates/configmaps"
+    "essential education"
   ]
 }
