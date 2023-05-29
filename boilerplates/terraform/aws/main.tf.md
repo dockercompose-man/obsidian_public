@@ -86,7 +86,7 @@ resource "aws_instance" "app_instance" {
   #!/bin/bash -ex
 
   amazon-linux-extras install nginx1 -y
-  echo "<h1>This is my new server</h1> > /usr/share/nginx/html/index.html
+  echo "<h1>This is my new server</h1>" > /usr/share/nginx/html/index.html
   systemctl enable nginx
   systemctl start nginx
   EOF
