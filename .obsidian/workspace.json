@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/networking/vpc.md",
+                "file": "terraform/cookbook/1.2 chomp.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/networking/vpc.md",
+                "file": "terraform/cookbook/1.2 chomp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/networking/vpc.md",
+                "file": "terraform/cookbook/1.2 chomp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,12 +133,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/networking/vpc.md"
+                "file": "terraform/cookbook/1.2 chomp.md"
               }
             }
           },
           {
-            "id": "30650b8e73de2247",
+            "id": "7c19c9b4af0ea986",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +169,12 @@
   },
   "active": "814a09fe7fd9761a",
   "lastOpenFiles": [
-    "boilerplates/terraform/aws/variables.tf.md",
+    "terraform/terraform commands.md",
+    "terraform/cookbook/1.2 chomp.md",
+    "terraform/cookbook",
     "aws/networking/vpc.md",
+    "terraform",
+    "boilerplates/terraform/aws/variables.tf.md",
     "aws/networking",
     "aws",
     "boilerplates/terraform/aws/outputs.tf.md",
@@ -196,13 +201,8 @@
     "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx",
     "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-svc.yml.md",
-    "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-svc.yml.md",
-    "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
-    "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server",
     "boilerplates/kubernetes/deployments/staging/navidrome",
-    "boilerplates/kubernetes/deployments/staging",
-    "boilerplates/kubernetes/deployments/staging/jellyfin",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server"
+    "boilerplates/kubernetes/deployments/staging"
   ]
 }
