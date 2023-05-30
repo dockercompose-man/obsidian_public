@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "boilerplates/terraform/aws/variables.tf.md",
+                "file": "aws/networking/vpc.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "boilerplates/terraform/aws/variables.tf.md",
+                "file": "aws/networking/vpc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "boilerplates/terraform/aws/variables.tf.md",
+                "file": "aws/networking/vpc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "boilerplates/terraform/aws/variables.tf.md"
+                "file": "aws/networking/vpc.md"
               }
             }
           },
@@ -168,9 +168,12 @@
   },
   "active": "814a09fe7fd9761a",
   "lastOpenFiles": [
+    "boilerplates/terraform/aws/variables.tf.md",
+    "aws/networking/vpc.md",
+    "aws/networking",
+    "aws",
     "boilerplates/terraform/aws/outputs.tf.md",
     "boilerplates/terraform/aws/main.tf.md",
-    "boilerplates/terraform/aws/variables.tf.md",
     "boilerplates/terraform/aws/terraform.tfvars.md",
     "boilerplates/README.md",
     "boilerplates/terraform/helm/certmanager.tf.md",
@@ -196,13 +199,10 @@
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-deploy.yml.md",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-deploy.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server",
     "boilerplates/kubernetes/deployments/staging/navidrome",
     "boilerplates/kubernetes/deployments/staging",
     "boilerplates/kubernetes/deployments/staging/jellyfin",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server",
-    "boilerplates/kubernetes/deployments",
-    "essential education"
+    "boilerplates/kubernetes/deployments/staging/minecraft-server"
   ]
 }
