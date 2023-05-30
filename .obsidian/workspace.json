@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terraform/cookbook/1.2 chomp.md",
+                "file": "terraform/cookbook/codespaces and dev containers.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "terraform/cookbook/1.2 chomp.md",
+                "file": "terraform/cookbook/codespaces and dev containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "terraform/cookbook/1.2 chomp.md",
+                "file": "terraform/cookbook/codespaces and dev containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "terraform/cookbook/1.2 chomp.md"
+                "file": "terraform/cookbook/codespaces and dev containers.md"
               }
             }
           },
@@ -169,8 +169,12 @@
   },
   "active": "814a09fe7fd9761a",
   "lastOpenFiles": [
-    "terraform/terraform commands.md",
+    "terraform/cookbook/2.5 updating terraform.md",
+    "terraform/cookbook/codespaces and dev containers.md",
+    "terraform/cookbook/2.4 github actions.md",
+    "terraform/cookbook/2.3 eks cluster.md",
     "terraform/cookbook/1.2 chomp.md",
+    "terraform/terraform commands.md",
     "terraform/cookbook",
     "aws/networking/vpc.md",
     "terraform",
@@ -197,10 +201,7 @@
     "boilerplates/kubernetes/deployments/staging/nginx/nginx-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/navidrome/navidrome-ingress.yml.md",
     "boilerplates/kubernetes/deployments/staging/jellyfin/jelly-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-ingress.yml.md",
-    "boilerplates/kubernetes/deployments/staging/quake3-server/quake3-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/nginx",
-    "boilerplates/kubernetes/deployments/staging/minecraft-server/minecraft-svc.yml.md",
     "boilerplates/kubernetes/deployments/staging/quake3-server",
     "boilerplates/kubernetes/deployments/staging/navidrome",
     "boilerplates/kubernetes/deployments/staging"
