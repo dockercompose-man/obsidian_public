@@ -14,4 +14,41 @@ To begin, create a .devcontainer folder at the root of your directory, then an e
 	devcontainer.json
 	Dockerfile
 
+# See https://hub.docker.com/r/hashicorp/terraform for more information
+FROM hashicorp/terraform:1.2.6
 
+Next, we specify the JSON configuration for how our codespace container will work in the devcontainer.json file, with the following lines.
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.1/containers/codespaces-linux
+
+```ruby
+{
+	"name": "GitHub Codespaces (Default)",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+        "GitHub.copilot",
+        "HashiCorp.terraform"
+			]
+		}
+	}
+}
+```
+
+Now, commit and push your changes to the repository you’re working with on GitHub.
+
+###### NOTE
+
+Ensure that your changes are pushed to GitHub or these next steps will not work.
+
+Once your code is on GitHub, you will notice that you have unlocked a new capability, CodeSpaces.
+
+To create your codespace, you can use the button within the GitHub UI (Figure 3-2), or you can try some of the other [creation options](https://github.com/features/codespaces).
